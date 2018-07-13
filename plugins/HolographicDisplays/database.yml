@@ -1,0 +1,52 @@
+divljina:
+  location: world, 5045.502, 67.000, -57.324
+  lines:
+  - '&fDobrodosao na warp &bDivljina'
+  - '&fOvo je RAID server, jacinu Obsidiana provjerite sa Stickom'
+donorshop:
+  location: world, -19.630, 36.000, -45.591
+  lines:
+  - '&fDobrodosao na &bDonorSHOP'
+  - '&fDozvoljen pristup samo Donor rankovima!'
+  - '&fAbuse = BAN'
+spawn:
+  location: world, -25.500, 74.000, -34.500
+  lines:
+  - '{animation: Logo.txt}'
+  - '&f'
+  - '{animation: Linija.txt}'
+  - '&eDobro dosao na &uHappyCraft &eFactions &eserver!'
+  - '&eNadamo se da ces se lijepo provesti..'
+  - '&eMi nudimo mnogo unikatnih i zanimljivih stvari;'
+  - '{animation: nudimo.txt}'
+  - '&k'
+  - '&eServer je u &fBETA FAZI&e, pa ako'
+  - '&eotkrijete neke bugove, prijavte ih!'
+pvp:
+  location: world_the_end, -452.302, 148.000, 468.011
+  lines:
+  - '&fDobrodosao na warp &bPvP'
+  - '&fZabranjeno koristenje Hackova i skripti!'
+shop:
+  location: world, -27.621, 15.000, -40.484
+  lines:
+  - '&fDobrodosao na warp &bShop'
+crate:
+  location: world, -9.500, 69.200, -46.500
+  lines:
+  - '&8/ &2&lKos&a&lmos &6&l&oCrate &8\'
+  - '&f'
+  - '&2&l&m============================================='
+  - '&f'
+  - '&eUzmi svoj kljuc, putem komande &a/Kit crate&e !'
+  - '&eMozes dobiti samo jedan kljuc dnevno, ali'
+  - '&ezato ovdje mozes pronaci mnogo unikatnih nagrada!'
+  - '&2'
+  - '&2&l&m============================================='
+supply:
+  location: world, 5.500, 67.200, -34.500
+  lines:
+  - '&9Supply Crates'
+  - '&f'
+  - '&eSupply se pokrece kada na serveru ima &230&e igraca!'
+  - '&eOvdje na Supply eventu, mozes dobiti vrlo &erijetke i jake iteme!'

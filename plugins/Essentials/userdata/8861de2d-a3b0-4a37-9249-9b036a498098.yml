@@ -1,0 +1,38 @@
+lastAccountName: KriptoN
+timestamps:
+  login: 1471269561693
+  lastteleport: 1471268418158
+  logout: 1471270863552
+  kits:
+    gold: 1471258648036
+    crate: 1471260582423
+    key: 1471258858496
+ipAddress: 178.149.105.169
+lastlocation:
+  world: world
+  x: -15.537723028874243
+  y: 63.0
+  z: -44.51836684230044
+  yaw: -137.34999
+  pitch: 0.89999443
+homes:
+  home1:
+    world: world
+    x: 243.92883578014866
+    y: 81.153836783873
+    z: 482.3288417108116
+    yaw: -60.756306
+    pitch: 17.549997
+money: '155105'
+logoutlocation:
+  world: world
+  x: -1.1365455956543453
+  y: 64.0
+  z: -54.925571288559674
+  yaw: -206.24976
+  pitch: 17.85003
+afk: false
+socialspy: false
+powertools:
+  '280':
+  - op Talentooman

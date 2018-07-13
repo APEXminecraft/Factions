@@ -1,0 +1,86 @@
+## --------------------------------------- ##
+## Basic World placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {map_nether_haspvp_raw} returns
+map_nether_haspvp_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_nether_allowmonsters_raw} returns
+map_nether_allowmonsters_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_the_end_allowmonsters_raw} returns
+map_the_end_allowmonsters_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_the_end_allowanimals_raw} returns
+map_the_end_allowanimals_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_nether_allowanimals_raw} returns
+map_nether_allowanimals_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_haspvp_raw} returns
+map_haspvp_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_allowmonsters_raw} returns
+map_allowmonsters_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_allowanimals_raw} returns
+map_allowanimals_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {map_the_end_haspvp_raw} returns
+map_the_end_haspvp_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+

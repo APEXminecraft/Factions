@@ -1,0 +1,257 @@
+Crates:
+  Default:
+    ParticleEffect:
+      enabled: true
+      onlywhenopening: false
+      particle: LAVA
+    Key:
+      material: 340
+      name: '&8[  &2&lKos&a&lmos &6&l&oKey  &8]'
+      enchanted: true
+      lore:
+      - '&7Otvori &eCrate&7 i osvoji super nagrade!'
+    Sound:
+      movingSound: WOOD_CLICK
+      prizeSound: BAT_TAKEOFF
+      closeInventorySound: CHEST_CLOSE
+    LeftClickInv:
+      enabled: true
+      enablechancelore: true
+      lore:
+      - '&2Mogucnost dobitka: &c%chance%%'
+      name: '&cItems for %crate%'
+    OpenInv:
+      name: '&cOpening %crate%'
+    PrizeItem:
+      material: 154
+      name: '&eDobio si /\'
+      enchanted: false
+    PreCommands:
+    - msg:%prefix%Now opening %crate% crate.
+    BlockType: 116
+    Items:
+      '1':
+        enchanted: false
+        material: PAPER
+        name: '&a2.500&2$'
+        chance: 25
+        amount: 1
+        commands:
+        - eco give %player% 2500
+      '2':
+        enchanted: false
+        material: PAPER
+        name: '&a5.000&2$'
+        chance: 20
+        amount: 1
+        commands:
+        - eco give %player% 5000
+      '3':
+        enchanted: false
+        material: PAPER
+        name: '&a7.500&2$'
+        chance: 15
+        amount: 1
+        commands:
+        - eco give %player% 7500
+      '4':
+        enchanted: true
+        material: PAPER
+        name: '&a15.000&2$'
+        chance: 12
+        amount: 1
+        commands:
+        - eco give %player% 15000
+      '5':
+        enchanted: true
+        material: PAPER
+        name: '&a50.000&2$'
+        chance: 2
+        amount: 1
+        commands:
+        - eco give %player% 50000
+      '6':
+        enchanted: true
+        material: PAPER
+        name: '&a150.000&2$'
+        chance: 0.1
+        amount: 1
+        commands:
+        - eco give %player% 150000
+      '7':
+        enchanted: false
+        material: OBSIDIAN
+        name: '&5Obsidian &fx16'
+        chance: 30
+        amount: 16
+        commands:
+        - give %player% 49 16
+      '8':
+        enchanted: false
+        material: OBSIDIAN
+        name: '&5Obsidian &fx32'
+        chance: 20
+        amount: 32
+        commands:
+        - give %player% 49 32
+      '9':
+        enchanted: false
+        material: OBSIDIAN
+        name: '&5Obsidian &fx64'
+        chance: 10
+        amount: 64
+        commands:
+        - give %player% 49 64
+      '10':
+        enchanted: false
+        material: DIAMOND_BLOCK
+        name: '&bDiamond Block &fx8'
+        chance: 15
+        amount: 8
+        commands:
+        - give %player% 57 8
+      '11':
+        enchanted: false
+        material: DIAMOND_BLOCK
+        name: '&bDiamond Block &fx16'
+        chance: 10
+        amount: 16
+        commands:
+        - give %player% 57 16
+      '12':
+        enchanted: false
+        material: DIAMOND_BLOCK
+        name: '&bDiamond Block &fx32'
+        chance: 5
+        amount: 32
+        commands:
+        - give %player% 57 32
+      '13':
+        enchanted: false
+        material: '322:1'
+        name: '&6Enchant Golden &cApple &fx8'
+        chance: 13
+        amount: 8
+        commands:
+        - give %player% 322:1 8
+      '14':
+        enchanted: false
+        material: '322:1'
+        name: '&6Enchant Golden &cApple &fx16'
+        chance: 8
+        amount: 16
+        commands:
+        - give %player% 322:1 16
+      '15':
+        enchanted: false
+        material: '322:1'
+        name: '&6Enchant Golden &cApple &fx32'
+        chance: 5
+        amount: 32
+        commands:
+        - give %player% 322:1 32
+      '16':
+        enchanted: false
+        material: '322:1'
+        name: '&6Enchant Golden &cApple &fx64'
+        chance: 0.2
+        amount: 64
+        commands:
+        - give %player% 322:1 64
+      '17':
+        enchanted: false
+        material: TNT
+        name: '&cTNT &fx32'
+        chance: 25
+        amount: 32
+        commands:
+        - give %player% tnt 32
+      '18':
+        enchanted: false
+        material: TNT
+        name: '&cTNT &fx64'
+        chance: 10
+        amount: 64
+        commands:
+        - give %player% tnt 64
+      '19':
+        enchanted: false
+        material: '383:50'
+        name: '&2Creeper Egg &fx16'
+        chance: 25
+        amount: 16
+        commands:
+        - give %player% 383:50 16
+      '20':
+        enchanted: false
+        material: '383:50'
+        name: '&2Creeper Egg &fx32'
+        chance: 15
+        amount: 32
+        commands:
+        - give %player% 383:50 32
+      '21':
+        enchanted: true
+        material: 368
+        name: '&3EnderPearl &fx8'
+        chance: 30
+        amount: 8
+        commands:
+        - give %player% 368 8
+      '22':
+        enchanted: true
+        material: 368
+        name: '&3EnderPearl &fx16'
+        chance: 15
+        amount: 16
+        commands:
+        - give %player% 368 16
+      '23':
+        enchanted: true
+        material: book
+        name: '&8[  &2&lKos&a&lmos &6&l&oKey  &8]&c 1x'
+        chance: 9
+        amount: 1
+        commands:
+        - crate gk %player% Default 1
+      '24':
+        enchanted: true
+        material: book
+        name: '&8[  &2&lKos&a&lmos &6&l&oKey  &8]&c 3x'
+        chance: 5
+        amount: 3
+        commands:
+        - crate gk %player% Default 3
+      '25':
+        enchanted: true
+        material: book
+        name: '&8[  &2&lKos&a&lmos &6&l&oKey  &8] &c5x'
+        chance: 1
+        amount: 5
+        commands:
+        - crate gk %player% Default 5
+      '26':
+        enchanted: false
+        material: barrier
+        name: '&cNista'
+        chance: 45
+        amount: 1
+        commands:
+        - null
+      '27':
+        enchanted: true
+        material: 267
+        name: '&6&lBRONZE &7Kit'
+        chance: 15
+        amount: 1
+        commands:
+        - kit Bronze %player%
+      '28':
+        enchanted: true
+        material: SPAWNER
+        name: '&a&lZombie Spawner'
+        chance: 5
+        amount: 1
+        commands:
+        - eco give %player% 52:54
+        - bc &c%player% &7je osvojio &a&lZombie &7spawner!

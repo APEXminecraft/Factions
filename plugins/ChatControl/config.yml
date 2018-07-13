@@ -1,0 +1,224 @@
+# Note: This is a configuration of the ChatControl plugin
+# Official page: http://www.spigotmc.org/resources/chatcontrol.271/
+# SLOVAK DEVELOPER FTW
+# Supports color codes: & + 0 - F
+# 
+# For configuration help visit: https://github.com/kangarko/ChatControl/blob/master/config.yml
+
+Chat:
+  Block_Duplicate_Messages: true
+  Block_Similar_Messages: false
+  Strip_Unicode: true
+  Message_Delay: 3
+  Write_To_File: false
+  Ignore_Players:
+  - TalentomanTV
+  - FuxzorTV
+  - FrazeFX
+  Include_Commands:
+  - /tell
+  - /msg
+  - /r
+Messages:
+  Common:
+    Join_Message: default
+    Quit_Message: default
+    Kick_Message: default
+Grammar:
+  Capitalize:
+    Enabled: false
+    Minimum_Msg_Length: 5
+  Insert_Dot:
+    Enabled: false
+    Minimum_Msg_Length: 5
+Commands:
+  Block_Duplicate_Commands: false
+  Block_Similar_Messages: false
+  Strip_Unicode: true
+  Command_Delay: 2
+  Whitelist_Time:
+  - whisper
+  Whitelist_Duplication:
+  - spawn
+  - home
+Protect:
+  Prevent_Tab_Complete: false
+Signs:
+  Advertising_Check: true
+  Rewrite_Lines: true
+  Rewrite_Text: REKLAMIRANJE
+  Duplication_Check: false
+Mute:
+  Broadcast: true
+  Disable:
+    Join_Messages: true
+    Quit_Messages: true
+    Kick_Messages: true
+    Death_Messages: true
+  Disabled_Commands_During_Mute:
+  - me
+  - helpop
+Clear:
+  Broadcast: true
+  Do_Not_Clear_For_Staff: false
+  Amount_Of_Lines_To_Clear_In_Console: 300
+Anti_Bot:
+  Rejoin_Time: 0
+Anti_Caps:
+  Enabled: true
+  Minimum_Message_Length: 2
+  Total_Caps_Percentage: 50
+  Caps_In_A_Row: 2
+  Warn_Player: true
+  Whitelist:
+  - ASDF
+Anti_Swear:
+  Enabled: true
+  Enabled_In_Commands: true
+  Command_Whitelist:
+  - /register
+  - /reg
+  - /login
+  - /l
+  - /changepassword
+  - /unregister
+  - /sethome
+  - /home
+  - /delhome
+  - /auction
+  - /auc
+  - /sauc
+  - /email
+  - /pay
+  - /tpa
+  - /home
+  - /Auc
+  Block_Message: true
+  Warn_Player: true
+  Inform_Admins: true
+  Replace_Word: false
+  Replacement:
+  - Cenzura
+  Custom_Command: none
+  Word_List:
+  - 185
+  - 25595
+  - 25588
+  - 25638
+  - 25570
+  - 25589
+  - 25597
+  - 25581
+  - 25567
+  - 25662
+  - 25611
+  - 25565
+  - 25566
+  - 25572
+  - 25568
+  - 25643
+  - 25609
+  - 25575
+  - 25702
+  - 25596
+  - 25584
+  - 25585
+  - .*jebi.*|.*kretenu.*|.*kreten.*|.*retardu.*|.*retard.*|.*picka.*|.*pička.*|.*picketina.*|.*pičketina.*|.*picke.*|.*pičke.*|.*mater.*|.*majku.*|.*napusi se.*|.*majmune.*|.*majmun.*|.*picko.*|.*jebem.*|.*jebacu.*|.*jebat.*|.*jebe.*|.*odjebi.*|.*kurac.*|.*budala.*|.*idiot.*|.*l+a+g.*|.*noob.*|.*noobara.*|.*n+0+0+b.*|.*w+u+c+o.*|.*v+u+c+o.*|.*wu co.*|.*vu co.*|.*w.u.c.o.*|.*v.u.c.o.*|.*balkancraft.*|.*balkan-craft.*|.*zvjercraft.*|.*zvjer.*|.*zvjer-craft.*|.*flycraft.*|.*fly-craft.*|.*zvijer.*|.*minex.*
+Anti_Ad:
+  Enabled: true
+  Enabled_In_Commands: true
+  Command_Whitelist:
+  - /register
+  - /reg
+  - /login
+  - /l
+  - /L
+  - /changepassword
+  - /unregister
+  - /sethome
+  - /home
+  - /delhome
+  - /auction
+  - /auc
+  - /sauc
+  - /email
+  - /pay
+  - /tpa
+  - /home
+  - /Auc
+  Inform_Admins: true
+  Console_Message: true
+  Broadcast: false
+  Write_To_File: true
+  Filter_Pre_Process: '[(\[\])]'
+  IP_Filter: \b[0-9]{1,3}(\.|/|//|///|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+  Domain_Filter: '[a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|mil|cz|co|uk|sk|cc|ws|ca|biz|mobi|xxx|tv|eu|hr|info)\b'
+  Custom_Filter: none
+  Custom_Command: none
+  Whitelisted:
+    IP:
+    - 0.0.0.0
+    - ts.HappyCraft.info
+    Domains:
+    - HappyCraft.info
+    - HappyCraft.info/donacije.html
+    - ts.HappyCraft.info
+    - mc.HappyCraft.info
+    - prntscr.com
+Miscellaneous:
+  Minimum_Players_To_Enable_Plugin: 0
+  Block_Chat_Until_Moved: true
+  Op_Has_Permissions: true
+  Automatically_Update_Config: false
+  Check_For_Updates: false
+  Download_Automatically: false
+  Notify_New_Version: false
+  Debug: false
+Localization:
+  Dupe_Message: '&9Chat> &7Molimo te da ne ponavljas iste poruke.'
+  Dupe_Command: '&9Chat> &7Molimo te da ne ponavljas iste komande.'
+  Dupe_Sign: '&cPlease do not repeat the same text on sign.'
+  Time_Message: '&9Chat> &7Molimo sacekaj %time sekundi prije sljedece
+    poruke.'
+  Command_Message: '&9Chat> &7Molimo sacekaj %time sekundi prije sljedece
+    komande.'
+  Ad_Message: '&9Chat> &7Ne reklamiraj druge servere!'
+  Ad_Staff_Message: '&4%player &creklamira: &f%message '
+  Ad_Broadcast_Message: '&4%player &creklamira!'
+  Ad_Console_Message: '&4%player &cvjerovatno reklamira: &f%message'
+  Caps_Message: '&9Chat> &7Smanji CAPS LOCK'
+  Successful_Mute: '&9Chat> &7Chat je mutan.'
+  Successful_Unmute: '&9Chat> &7Chat je unmutan.'
+  Broadcast_Mute: '%prefix &eChat je mutao %player!'
+  Broadcast_Silent_Mute: '&cInitiated global chat mute.'
+  Broadcast_Unmute: '%prefix &eChat je unmutao %player!'
+  Broadcast_Silent_Unmute: '&cGlobal chat mute was cancelled.'
+  Broadcast_Clear: '%prefix &eChat je ocistio %player!'
+  Broadcast_Silent_Clear: '&cThe game chat was cleared.'
+  Successful_Console_Clear: '%prefix &7Console was successfuly cleared.'
+  Do_Not_Swear: '&9Chat> &eNe Psuj!'
+  Swear_Admin_Message: '&4%player &cspama/reklamira:&f %message'
+  Cannot_Chat_While_Muted: '&9Chat> &7Ne mozes pisati dok je chat mutan.'
+  Cannot_Command_While_Muted: '&7You cannot use this command while the chat is muted.'
+  Cannot_Chat_Until_Moved: '&7Ne mozes pisati dok se ne pomaknes.'
+  Cannot_Broadcast_Empty_Message: '&cMessage at %event is none, therefore nothing
+    is broadcasted.'
+  Staff_Chat_Clear_Message: '&7^----- [ == &fChat je ocistio %player &7== ] -----^'
+  Rejoin_Message: '&6Molimo pricekaj &7%time sekundi&6 prije spajanja na server.'
+  Update_Needed: |-
+    &2A new version of &3ChatControl&2 is available.
+    &2Current version: &f%current&2; New version: &f%new
+    &2You can disable this notification in its config.
+  Reload_Complete: '&7Plugin je uspjesno reloadan.'
+  No_Permission: Komanda ne postoji
+  Wrong_Args: Komanda ne postoji
+  Wrong_Parameters: '&cWrong parameters, available are: &7%params'
+  Usage_Fake_Cmd: '%prefix Usage: /chatcontrol fake <&bjoin&f/&aleave&f>'
+  Reason: '&7Razlog:&f%reason'
+  Prefix: '&9Chat>'
+  Console: '&4Console'
+  Reload_Failed: '&cGreska prilikom reloadanja.'
+Do_Not_Change_Version_Number: 4.4.6
+Broadcast_Silent_Mute: '&cInitiated global chat mute.'
+Broadcast_Silent_Unmute: '&cGlobal chat mute was cancelled.'
+Broadcast_Silent_Clear: '&cThe game chat was cleared.'

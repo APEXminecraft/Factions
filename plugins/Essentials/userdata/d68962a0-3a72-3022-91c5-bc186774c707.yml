@@ -1,0 +1,27 @@
+uuid: d68962a0-3a72-3022-91c5-bc186774c707
+timestamps:
+  login: 1471112350325
+  lastteleport: 1471112082814
+  logout: 1471113124278
+  kits:
+    supreme: 1471106583811
+ipAddress: 31.176.184.4
+lastlocation:
+  world: world
+  x: 239.42336454060708
+  y: 68.23204392303282
+  z: 490.30000001192093
+  yaw: -260.06903
+  pitch: 25.487974
+logoutlocation:
+  world: world
+  x: 275.7538957222917
+  y: 67.0
+  z: 448.87247750498335
+  yaw: -50.083466
+  pitch: -4.921291
+socialspy: false
+money: '500'
+afk: false
+nickname: §bSkFxon
+lastAccountName: originalskfxon

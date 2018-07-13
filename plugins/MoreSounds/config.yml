@@ -1,0 +1,19 @@
+# For further instruction,
+# see dev.bukkit.org/server-mods/more-sounds
+#                                             .
+# Sounds format: name, pitch, volume
+#                                             .
+sounds:
+  join: note-pling
+  leave: note-bass
+  chat: item-pickup
+  command: item-pickup
+  hit: blaze-hit
+  hit-sword: blaze-hit
+  hit-arrow: blaze-hit
+  teleport: none
+  on-death: wither-spawn
+  hotbar-scroll: note-sticks, 1.8, 0.8
+  inventory-click: note-sticks, 1.8, 0.8
+update-notifications: true
+teleport-particles: true

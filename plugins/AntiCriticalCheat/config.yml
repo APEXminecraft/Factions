@@ -1,0 +1,50 @@
+SpecificStrategy:
+  enabled: true
+  hitsToExecuteCmds: 2#3
+  CmdsToExecute: kick {player} Ugasite Criticals Hack!#ban {player} Criticals Hack!
+Strategy1:
+  enabled: false
+  comboCriticalsLimit: '10'
+  hitsToExecuteCmds: '-1'
+  CmdsToExecute: ''
+Strategy2:
+  enabled: false
+  hitsToExecuteCmds: '-1'
+  CmdsToExecute: ''
+Fastbow:
+  enabled: true
+  hitsToExecuteCmds: 3#6
+  CmdsToExecute: kick {player} Ugasite FastBow Hack!#ban {player} FastBow Hack!
+AttackSpeed:
+  enabled: false
+  pingToAvoidChecks: '750'
+  hitsToExecuteCmds: '-1'
+  CmdsToExecute: '-1'
+Messages:
+  findcmd: Shows the report of a selected user
+  addcmd: Starts to register a player's damage
+  viewcmd: Watch players hits in real time
+  unviewcmd: Stop watching players hits in real time
+  getplayerscmd: Shows the list of registered players
+  reportcmd: Generates a report of possible cheaters
+  clearcmd: Clear the report list
+  player_added: Player has been added successfuly
+  player_already_on_list: Player was already on the list
+  name_incorrect: The name is incorrect
+  only_watch: You can only watch %d players at the same time
+  no_permissions: You don't have permissions
+  player_removed: Player has been removed from the list successfully
+  player_not_on_list: The player was not on the list
+  started_watch: You started to watch the users from the list
+  already_watching: You were already watching the users from the list
+  stopped_watching: You stopped watching the users from the list
+  no_watching: You weren't watching the users from the list
+  report_reset: The report list was reseted
+  report_of: Report of cheaters
+  clear_list: It's clear or maybe you just put a wrong name (respect uppercase!)
+  jump: Jumping
+  damage: Damage
+  critical: Critical
+  you_watching: You are now watching
+  maybe_have: Maybe have cheats
+  reloaded: Config reloaded

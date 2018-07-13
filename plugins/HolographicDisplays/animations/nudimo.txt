@@ -1,0 +1,7 @@
+Speed: 2
+&c&nMystery&c &c&nBox
+&c&nPokemon&c &c&nGO
+&c&nDonator&c &c&nShop
+&c&nCrates
+&c&nSupply&c &c&nCrates
+&c&nStats&c &c&nboard

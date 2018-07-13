@@ -1,0 +1,186 @@
+quests:
+  'blockbreak1':
+    name: 'Mine I'
+    type: MINING
+    redoable: false
+    value: 100
+    display:
+      item: 'WOOD_PICKAXE'
+      name: '&9Mine I'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Unistiti 100 Blockova!'
+       - ''
+       - '&7Nagrada:'
+       - '&7$1000'
+       - ''
+       - '&7Progress: %progress%/100 blokova'
+    rewards:
+     - 'type:command, value:[eco give %player% 1000]'
+  'blockbreak2':
+    name: '&9Mine II'
+    type: MINING
+    redoable: false
+    requires: 'blockbreak1'
+    value: 500
+    display:
+      item: 'STONE_PICKAXE'
+      name: '&9Mine II'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Unistiti 500 Blockova!'
+       - ''
+       - '&7Nagrada:'
+       - '&7$2500'
+       - ''
+       - '&7Progress: %progress%/500 blokova'
+    rewards:
+     - 'type:command, value:[eco give %player% 2500]'
+  'blockbreak3':
+    name: '&9Mine III'
+    type: MINING
+    redoable: false
+    requires: 'blockbreak2'
+    value: 1000
+    display:
+      item: 'DIAMOND_PICKAXE'
+      name: '&9Mine III'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Unistiti 1000 Blockova!'
+       - ''
+       - '&7Nagrada:'
+       - '&7$5500'
+       - ''
+       - '&7Progress: %progress%/500 blokova'
+    rewards:
+     - 'type:command, value:[eco give %player% 5500]'
+  'blockplace1':
+    name: 'PLACE I'
+    type: BUILDING
+    redoable: false
+    value: 250
+    display:
+      item: 'STONE'
+      name: '&9PLACE I'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Postaviti 250 Blockova!'
+       - ''
+       - '&7Nagrada:'
+       - '&7$500'
+       - ''
+       - '&7Progress: %progress%/250 blokova'
+    rewards:
+     - 'type:command, value:[eco give %player% 500]'
+  'blockplace2':
+    name: 'PLACE II'
+    type: BUILDING
+    redoable: false
+    requires: 'blockplace1'
+    value: 600
+    display:
+      item: 'IRON_BLOCK'
+      name: '&9PLACE II'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Postaviti 600 Blockova!'
+       - ''
+       - '&7Nagrada:'
+       - '&7$1200'
+       - ''
+       - '&7Progress: %progress%/600 blokova'
+    rewards:
+     - 'type:command, value:[eco give %player% 1200]'
+  'blockplace3':
+    name: 'PLACE III'
+    type: BUILDING
+    redoable: false
+    requires: 'blockplace2'
+    value: 1500
+    display:
+      item: 'DIAMOND_BLOCK'
+      name: '&9PLACE III'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Postaviti 1500 Blockova!'
+       - ''
+       - '&7Nagrada:'
+       - '&7$3500'
+       - ''
+       - '&7Progress: %progress%/1500 blokova'
+    rewards:
+     - 'type:command, value:[eco give %player% 3500]'
+  'mobkill1':
+    name: 'MOB KILLER I'
+    type: MOBKILLING
+    value: 100
+    requires: 'blockbreak2'
+    display:
+      item: 'LEATHER_CHESTPLATE'
+      name: '&9MOB KILLER I'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Ubiti 100 Mobova'
+       - ''
+       - '&7Nagrada:'
+       - '&7$3000'
+       - ''
+       - '&7Progress: %progress%/100 ubijenih mobova!'
+    rewards:
+     - 'type:command, value:[eco give %player% 3000]'
+  'mobkill2':
+    name: 'MOB KILLER II'
+    type: MOBKILLING
+    value: 100
+    requires: 'blockbreak3'
+    display:
+      item: 'IRON_CHESTPLATE'
+      name: '&9MOB KILLER II'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Ubiti 500 Mobova'
+       - ''
+       - '&7Nagrada:'
+       - '&7$10000'
+       - ''
+       - '&7Progress: %progress%/500 ubijenih mobova!'
+    rewards:
+     - 'type:command, value:[eco give %player% 10000]'
+  'playerkill1':
+    name: 'KILLER I'
+    type: PLAYERKILLING
+    redoable: false
+    value: 15
+    requires: 'mobkill2'
+    display:
+      item: 'WOOD_SWORD'
+      name: '&9KILLER I'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Ubiti 15 Igraca'
+       - ''
+       - '&7Nagrada:'
+       - '&7$5900'
+       - ''
+       - '&7Progress: %progress%/15 ubijenih igraca!'
+    rewards:
+     - 'type:command, value:[eco give %player% 5900]'
+  'playerkill2':
+    name: 'KILLER II'
+    type: PLAYERKILLING
+    value: 50
+    requires: 'playerkill1'
+    display:
+      item: 'STONE_SWORD'
+      name: '&9KILLER II'
+      lore:
+       - '&7Da bi zavrsili zadatak morate:'
+       - '&7Ubiti 50 Igraca'
+       - ''
+       - '&7Nagrada:'
+       - '&7$20000'
+       - ''
+       - '&7Progress: %progress%/50 ubijenih igraca!'
+    rewards:
+     - 'type:command, value:[eco give %player% 20000]'

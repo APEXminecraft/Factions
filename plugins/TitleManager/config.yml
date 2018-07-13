@@ -1,0 +1,34 @@
+tusingConfig: true
+config-version: 3
+using-bungeecord: false
+legacy-client-support: false
+updater:
+  check-automatically: false
+tabmenu:
+  enabled: true
+  header: animation:test2
+  footer: \n&eTrenutno online igraca &7(&c{SAFE-ONLINE}&7)
+welcome_message:
+  enabled: true
+  title: animation:test3
+  subtitle: animation:test1
+  fadeIn: 20
+  stay: 560
+  fadeOut: 20
+  first-join:
+    title: animation:test3
+    subtitle: animation:test1
+actionbar-welcome:
+  enabled: true
+  message: animation:test3
+  first-join:
+    message: animation:test3
+number-format:
+  enabled: true
+  format: '#,###.##'
+date-format:
+  format: EEE, dd MMM yyyy HH:mm:ss z
+disabled-variables:
+- my-disabled-variable
+- also-called-placeholders
+usingConfig: true

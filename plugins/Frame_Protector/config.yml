@@ -1,0 +1,11 @@
+# Default Configuration generated with FrameProtector v1.2
+# With autoupdate set to true it will check for update on startup and every 30 minutes.
+autoupdate: false
+check_bukkit_compatibility: false
+Messages:
+  Remove Frame Deny Message: Nemas dozvolu da unistis ovaj item frame!
+  Place Deny Message: Nemas dozvolu da postavis item frame!
+  Rotate Deny Message: Nemas dozvolu da rotiras ovaj item frame!
+  Remove Item Deny Message: Nemas dozvolu da uzimas item sa ovog framea!
+  Command Deny Message: I'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.
+  Configuration Reload Message: Konfikuracija reloadana!

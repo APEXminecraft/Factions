@@ -1,0 +1,48 @@
+uuid: e65ab2cc-8566-3285-a93e-6566ef82e3b4
+timestamps:
+  login: 1471275548382
+  lastteleport: 1471275747582
+  kits:
+    bronze: 1471081723227
+    yt: 1471087010214
+    emerald: 1471115482825
+    starter: 1471078841541
+    supreme: 1471114764834
+    silver: 1471114060519
+    diamond: 1471114706664
+    gold: 1471114725465
+    user: 1471098369048
+  logout: 1471188142016
+ipAddress: 176.222.40.231
+lastlocation:
+  world: world
+  x: -32.300000011920936
+  y: 8.0
+  z: -48.927293587537285
+  yaw: 238.81119
+  pitch: 43.19962
+afk: false
+logoutlocation:
+  world: map
+  x: -111.24782221719117
+  y: 64.0
+  z: -269.5367792221631
+  yaw: 12.154431
+  pitch: 52.64997
+socialspy: false
+homes:
+  home:
+    world: world
+    x: 203.63589502136657
+    y: 88.0
+    z: 326.0660195006962
+    yaw: 168.76903
+    pitch: 72.750015
+money: '560711'
+powertools:
+  '369':
+  - op KriptoN
+  '280':
+  - deop FrazeFX
+godmode: false
+lastAccountName: Talentooman

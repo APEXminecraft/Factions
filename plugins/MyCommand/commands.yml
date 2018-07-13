@@ -1,0 +1,227 @@
+# 
+#  BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/pages/configuration-and-example    	#
+dropcmd:
+  command: /Drop
+  type: RUN_COMMAND
+  runcmd:
+  - $delay$/bc &bDrop &fbegins in 30 seconds..
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$/bc &bDrop &fbegins in 15 seconds..
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$/bc &bDrop &fbegins in 3 seconds..
+  - $delay$/bc &bDrop &fbegins in 2 seconds..
+  - $delay$/bc &bDrop &fbegins in 1 second..
+  - $delay$
+  - $delay$
+  - /bc &bDrop &fhas been started!
+  - /tm bc &bDrop &fhas been started!
+  - /tm abc &bDROP PARTY! ! !
+  - /day
+  - /sun
+  - /tppos -31 69 -35
+  - /tpall $player
+  - /Kit Drop $player
+  - /eco give * 3000
+  - /playsound mob.enderdragon.end @a
+  - /clearchat
+  - /tppos -36 69 -29
+  - /hd create strana1 &f>  &bPokupi sve iteme!  &f<
+  - /tppos -28 69 -29
+  - /hd create strana2 &f>  &bPokupi sve iteme!  &f<
+  - /tppos -28 69 -37
+  - /hd create strana3 &f>  &bPokupi sve iteme!  &f<
+  - /tppos -36 69 -37
+  - /hd create strana4 &f>  &bPokupi sve iteme!  &f<
+  - /tppos -32 71 -33
+  - /hd create Drop &bDrop Party
+  - /hd addline Drop &f
+  - /hd addline Drop &7Lepo se zabavite i naravno
+  - /hd addline Drop &7uzivajte!
+  - /hd addline drop &7Na drop-u mozete dobiti
+  - /hd addline drop &a&l+ 3000$
+  - /hd addline drop &a&l+ kits
+  - /hd addline drop &a&l+ ranks
+  - /hd addline drop &a&l+ commands
+  - $delay$/hd addline drop &eHologram se gasi za &b11 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b10 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b9 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b8 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b7 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b6 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b5 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b4 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b3 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b2 &esekund/i..
+  - $delay$/hd setline drop 10 &eHologram se gasi za &b1 &esekund/i..
+  - $delay$
+  - $delay$
+  - /hd remove drop
+  - $delay$
+  - $delay$
+  - $delay$
+  - /hd setline strana1 1 &f> &bBudi najbogatiji! &f<
+  - /hd setline strana2 1 &f> &bBudi najbogatiji! &f<
+  - /hd setline strana3 1 &f> &bBudi najbogatiji! &f<
+  - /hd setline strana4 1 &f> &bBudi najbogatiji! &f<
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - $delay$
+  - /hd remove strana1
+  - /hd remove strana2
+  - /hd remove strana3
+  - /hd remove strana4
+  delaytimer: 1
+  permission-node: server.admin
+  permission-error: 'Nemas dozvolu!'
+News:
+  command: /News
+  type: RUN_COMMAND
+  runcmd:
+  - /Novosti
+  permission-required: false
+box:
+  command: /PokeBox
+  type: RUN_COMMAND
+  runcmd:
+  - /case give $player PokeBox
+  - /boxtekst
+  permission-node: server.pokebox
+  permission-error: 'Nemas dozvolu!'
+novosti:
+  command: /novosti
+  type: TEXT
+  text:
+  - '&a&m&m========================================'
+  - ' &c&l              UPDATE v0.1                    '
+  - '  &f&lNEW! &ePokemon GO'
+  - '  &f&lNEW! &eMystery BOX'
+  - '  &9&lFIX! &eCrates'
+  - '  &b&lEDIT! &ePromenjen dizajn svega'
+  - ''
+  - '&a&m&m========================================'
+  permission-node: server.igrac
+  permission-error: 'Nemas dozvolu!'
+oplist:
+  command: /oplist
+  type: TEXT
+  text:
+  - '&9OPs> &7$oplist '
+  permission-node: server.admin
+  permission-error: '&cNemas dozvolu!'
+rec:
+  command: /Rec
+  type: BROADCAST-TEXT
+  text:
+  - '&a&m&m========================================'
+  - ''
+  - '   &c&lYOUTUBER &e$player &7je poceo snimati!'
+  - ''
+  - '&a&m&m========================================'
+  permission-node: server.yt
+  permission-error: 'Nemas dozvolu!'
+automessage1:
+  command: /message1
+  type: BROADCAST-TEXT
+  text:
+  - '&a&m&m========================================'
+  - ''
+  - '&7         Posjetite ownere na FB-u:'
+  - '      &eFuxzorTV: &ffb.com/FuxzorOfficial'
+  - '      &eTalentooman: &ffb.com/SkrillexBoyWub'
+  - ''
+  - '&a&m&m========================================'
+automessage2:
+  command: /message2
+  type: BROADCAST-TEXT
+  text:
+  - '&a&m&m========================================'
+  - ''
+  - '&7   Lajkajte nasu FB stranicu za vise obavijesti!'
+  - ' &e        www.facebook.com/HCServer2016'
+  - ''
+  - '&a&m&m========================================'
+automessage3:
+  command: /message3
+  type: BROADCAST-TEXT
+  text:
+  - '&a&m&m========================================'
+  - ''
+  - '&7  Server je trenutno u &fBETA, tako da mozete ocekivati'
+  - '&7   mnogo raznih updateova i novih mogucnosti!'
+  - ''
+  - '&a&m&m========================================'
+automessage4:
+  command: /automessage
+  type: RUN_COMMAND
+  runcmd:
+  - /message1
+  - $delay$
+  - /message2
+  - $delay$
+  - /message3
+  - $delay$
+  - /automessage2
+  delaytimer: 60
+automessage422:
+  command: /automessage2
+  type: RUN_COMMAND
+  runcmd:
+  - /message1
+  - $delay$
+  - /message2
+  - $delay$
+  - /message3
+  - $delay$
+  - /automessage
+  delaytimer: 60
+'autoboard':
+  command: /AutoBoard
+  type: RUN_CONSOLE
+  runcmd:
+  - /fb show $player default
+  - $delay$
+  - /fb show $player player
+  - $delay
+  - /Autoboard2
+  delaytimer: 30
+  permission-required: false
+'autoboard2':
+  command: /AutoBoard2
+  type: RUN_CONSOLE
+  runcmd:
+  - /fb show $player default
+  - $delay$
+  - /fb show $player player
+  - $delay
+  - /Autoboard
+  delaytimer: 30
+  permission-required: false

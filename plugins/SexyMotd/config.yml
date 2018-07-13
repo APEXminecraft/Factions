@@ -1,0 +1,43 @@
+# 
+# Add a new sub-entry for each separate Motd you want in the random pool.
+# Examples below
+motds:
+- ' &7Join now to server with &e1.7.X &7and &e1.8.X &7versions! %newline%   &f&lNEW!  &e&lPokemon
+  GO&7,&e&lMysteryBox&7,&e&lGUIs &7and more..'
+maxPlayers:
+  enabled: false
+  maxPlayers: 503
+playerCount:
+  enabled: false
+  playerCount:
+  - 10
+  - -1
+  - 47
+icon:
+  enableAvatarIcon: false
+  enableOverlayImage: false
+  imagePath: C:/Users/BillyBobJoe/Pictures/billyBobJoeIcon.jpg
+playerMessage:
+  enabled: true
+  playerMessage:
+  - '&a&m&l============================'
+  - '           &aHappy Factions &cv0.1'
+  - ''
+  - '  &7This is official &eHappy &7server!'
+  - '  &7If you wanna to see new updates,'
+  - ' &7type &e/News  &7! If you need any'
+  - '  &7kind of help, just type &e/Help &7!'
+  - ''
+  - '&a&m&l============================'
+fakeVersion:
+  enabled: true
+  fakeVersion: '&aHappy Factions&o                     &6%onlineplayers%   '
+defaultPlayerName: New Player
+pingLogging: true
+variables:
+  largeplayercount:
+    variable: onlineplayers
+    operator: '>'
+    condition: '10'
+    value: '&aIts sure getting popular around %servername%!'
+    negValue: '&cGotta step up that recruiting skill! %servername%'

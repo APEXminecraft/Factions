@@ -1,0 +1,102 @@
+SupplyCrates:
+  time:
+    auto_end_after_start: 900
+    interval_start: 1800
+    min_players: 30
+  options:
+    use_inventory: false
+    use_falling_block: true
+  hologram:
+   #Set to message: [] to disable!
+    message:
+      - '&8/  &9Supply Crate &8\'
+      - '&cRight/Left click'
+  particle:
+    #Set to type: '' to disable!
+    #List of particles available at http://hastebin.com/raw/uwufufedab 
+    type: SMOKE_NORMAL
+    offsetX: 0.25
+    offsetY: 0.25
+    offsetZ: 0.25
+    speed: 0.05
+    amount: 20
+  crate:
+    amount_of_items: 2
+    type: CHEST
+    falling_block: BEACON
+    random_locations:
+      #If enabled it will choose 10 random locations to spawn Supply Crates.
+      enabled: false
+      amount: 4
+    locations: []
+    items:
+      '1':
+        material: GOLDEN_APPLE:1
+        amount: 1
+        name: '&dGolden Apple'
+        lore:
+        chance: 50
+      '2':
+        material: DIAMOND_HELMET
+        amount: 1
+        name: '&aEmerald Helmet'
+        lore:
+          - ''
+        enchants:
+          - protection:1
+          - unbreaking:3
+          - thorns:3
+        chance: 50
+      '3':
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        name: '&aEmerald Chestplate'
+        lore:
+          - ''
+        enchants:
+          - protection:4
+        chance: 50
+      '4':
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        name: '&aEmerald Leggings'
+        lore:
+          - ''
+        enchants:
+          - protection:1
+          - unbreaking:3
+        chance: 50
+      '5':
+        material: DIAMOND_BOOTS
+        amount: 1
+        name: '&aEmerald Boots'
+        lore:
+          - ''
+        enchants:
+          - protection:2
+          - unbreaking:1
+        chance: 50
+      '6':
+        commands:
+          - eco give {player} 2000
+        chance: 50
+      '7':
+        commands:
+          - eco give {player} 5000
+        chance: 50
+      '8':
+        commands:
+          - eco give {player} 10000
+        chance: 50
+      '9':
+        commands:
+          - eco give {player} 20000
+        chance: 50
+      '10':
+        commands:
+          - kit gold {player} 
+        chance: 30
+      '11':
+        commands:
+          - kit bronze {player} 
+        chance: 30

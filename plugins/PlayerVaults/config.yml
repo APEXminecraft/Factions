@@ -1,0 +1,18 @@
+# PlayerVaults by drsthock and gomeow!
+# http://dev.bukkit.org/server-mods/playervaults
+# Made with love :3
+# 
+# Whether or not you want to check for updates. 
+# Will not download an update by default, that is your job :)
+# We do not break between minecraft versions so auto updating should not be an issue.
+# But it's always a smart idea to read changelogs and such first :)
+check-update: false
+download-update: false
+economy:
+  enabled: false
+  cost-to-create: 100
+  cost-to-open: 10
+  refund-on-delete: 50
+drop-on-death:
+  enabled: false
+  inventories: 50

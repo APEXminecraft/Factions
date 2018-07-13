@@ -1,0 +1,574 @@
+# These groups only contain permission nodes.
+#
+# **** You can NOT add anything other than permission nodes ****
+# **** This is NOT where you set up the groups which you give to users! ****
+# **** goto groupmanager/worlds/worldname/groups.yml if you want to set the actual groups! ****
+#
+# These collections are to be inherited in your different worlds groups.yml's
+# They can also be added as one of a users subgroups, but NOT as a primary group.
+# These collections are available to ALL group and user yml's.
+#
+# Add to and customize these groups to fit your needs.
+
+groups:
+
+# Permission nodes for GroupManager
+# by ElgarL, snowleo, continued from gabrielcouto's original
+# http://dev.bukkit.org/server-mods/essentials/
+
+
+  g:mod_default:
+    permissions:
+    - chatcontrol.commands.clear
+    - chatcontrol.bypass.ad
+    - chatcontrol.bypass.swear
+    - chatcontrol.bypass.time.commands
+    - chatcontrol.bypass.time.chat
+    - chatcontrol.bypass.mute
+    - quests.quest
+    - quests.questinfo
+    - quests.list
+    - quests.take
+    - quests.quit
+    - quests.stats
+    - quests.top
+    - quests.journal
+    - chatcontrol.bypass.dupe.commands
+    - chatcontrol.bypass.dupe.chat
+    - screenleap.check
+    - essentials.togglejail
+    - chatcontrol.notify.ad
+    - chatcontrol.notify.swear
+    - essentials.ban
+    - essentials.ban.offline
+    - server.igrac
+    - essentials.banip
+    - essentials.unbanip
+    - essentials.jail
+    - essentials.unjail
+    - essentials.kick
+    - essentials.kick.exempt
+    - essentials.kick.notify
+    - essentials.seen.banreason 
+    - essentials.jail
+    - essentials.unjail
+    - essentials.mute
+    - essentials.helpop
+    - essentials.helpop.receive
+    - essentials.gc
+    - essentials.afk
+    - essentials.kits.Crate
+    - essentials.kits.Crates
+    - essentials.kit.Crate
+    - essentials.kit.Crates
+    - essentials.afk.auto
+    - essentials.joinfullserver
+    - lagg.check
+    - lagg.clear
+    - ontime.other
+    - ote.rank
+    - ote.donator
+    - essentials.seen.ipsearch
+    - SarmaCraft.mod
+    - essentials.joinfullserver
+    - SCserver.achat
+    - Acc.supermoderator
+
+  g:mod_plus:
+    permissions:
+    - chatcontrol.commands.clear
+    - chatcontrol.bypass.ad
+    - chatcontrol.bypass.swear
+    - chatcontrol.bypass.time.commands
+    - chatcontrol.bypass.time.chat
+    - chatcontrol.bypass.mute
+    - chatcontrol.bypass.dupe.commands
+    - chatcontrol.bypass.dupe.chat
+    - chatcontrol.notify.ad
+    - chatcontrol.notify.swear
+    - essentials.ban
+    - essentials.kits.Crate
+    - essentials.kits.Crates
+    - essentials.kit.Crate
+    - essentials.kit.Crates
+    - quests.quest
+    - quests.questinfo
+    - quests.list
+    - quests.take
+    - quests.quit
+    - quests.stats
+    - quests.top
+    - quests.journal
+    - essentials.ban.exempt  
+    - essentials.ban.offline
+    - essentials.banip
+    - essentials.unbanip
+    - essentials.unban
+    - essentials.togglejail
+    - essentials.jail
+    - server.admin
+    - essentials.unjail
+    - essentials.jail
+    - essentials.unjail
+    - essentials.tempban.offline 
+    - essentials.tempban.unlimited
+    - essentials.tempban
+    - essentials.kick
+    - screenleap.check
+    - essentials.kick.exempt
+    - essentials.kick.notify
+    - essentials.seen.banreason
+    - essentials.jail
+    - essentials.unjail
+    - essentials.mute
+    - essentials.jail
+    - essentials.unjail
+    - essentials.broadcast
+    - essentials.tp
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.vanish.interact
+    - essentials.vanish.see
+    - essentials.fly
+    - essentials.god
+    - server.admin
+    - server.igrac
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.afk.auto
+    - essentials.helpop
+    - essentials.helpop.receive
+    - essentials.list.hidden 
+    - essentials.enderchest.others
+    - essentials.gc
+    - essentials.invsee
+    - essentials.socialspy
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - lagg.check
+    - lagg.chunk
+    - lagg.tpchunk
+    - lagg.clear
+    - lagg.killmobs
+    - ontime.other
+    - ote.rank
+    - ote.donator
+    - essentials.seen.ipsearch
+    - SarmaCraft.*
+    - essentials.joinfullserver
+    - SCserver.achat
+    - Acc.supermoderator
+
+  g:donator_default:
+    permissions:
+    - auction.start
+    - auction.bid
+    - BookStats.Get
+    - BungeePortals.portal.*
+    - essentials.back
+    - essentials.kits.Crate
+    - essentials.kits.Crates
+    - essentials.kit.Crate
+    - essentials.kit.Crates
+    - essentials.back.ondeath
+    - essentials.clearinventory
+    - essentials.compass
+    - essentials.depth
+    - quests.quest
+    - quests.questinfo
+    - quests.list
+    - quests.take
+    - quests.quit
+    - quests.stats
+    - quests.top
+    - quests.journal
+    - youtube.record
+    - screenleap.check
+    - essentials.enderchest
+    - essentials.ext
+    - server.igrac
+    - essentials.getpos
+    - essentials.hat
+    - essentials.home.bed
+    - essentials.ignore
+    - essentials.warps.pvp
+    - ontime.rewards.receive
+    - ontime.track
+    - ote.rank
+    - ote.donator
+    - trophyheads.drop
+    - trophyheads.info
+    - essentials.warps.PvPDonator
+
+  g:groupmanager_default:
+    permissions:
+    - groupmanager.notify.self
+
+  g:groupmanager_moderator:
+    permissions:
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+
+  g:groupmanager_admin:
+    permissions:
+    - groupmanager.mantogglevalidate
+    - groupmanager.mansave
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+
+# Permission nodes for CraftBukkit
+# by many devs and contributors
+# http://dl.bukkit.org/
+
+  g:bukkit_default:
+    permissions:
+    - bukkit.command.tps
+
+  g:bukkit_moderator:
+    permissions:
+    - bukkit.command.gamemode
+
+  g:bukkit_admin:
+    permissions:
+    - bukkit.command.ban.ip
+    - bukkit.command.unban.ip
+    - bukkit.command.me
+    - bukkit.command.say
+    - bukkit.command.tps
+
+# Permission nodes for Essentials
+# by ementalo, snowleo, and KHobbits
+# http://dev.bukkit.org/server-mods/essentials/
+
+  g:essentials_default:
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.spawn
+
+  g:essentials_builder:
+    permissions:
+    - essentials.ban.notify
+    - essentials.balance.others
+    - autorank.check.user
+    - autorank.check.others
+    - essentials.balancetop
+    - essentials.balance
+    - essentials.delhome
+    - essentials.exp
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.itemdb
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.pay
+    - essentials.ping
+    - essentials.protect
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.disposal
+    - essentials.signs.use.enchant
+    - essentials.signs.use.free
+    - essentials.signs.use.heal
+    - essentials.signs.use.info
+    - essentials.signs.use.kit
+    - essentials.signs.use.mail
+    - essentials.signs.use.repair
+    - essentials.signs.use.sell
+    - essentials.signs.use.spawnmob
+    - essentials.signs.use.time
+    - essentials.signs.use.warp
+    - essentials.signs.use.weather
+    - essentials.spawn
+    - essentials.time
+    - essentials.tpa
+    - essentials.near
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worth
+    - essentials.warps.Spawn
+    - essentials.warps.Shop
+    - essentials.warps.Donacije
+    - essentials.warps.Info
+    - essentials.warps.Jail
+    - essentials.warps.Divljina
+    - essentials.warps.Enchant
+    - essentials.warps.Facebook
+    - essentials.warps.Hrana
+    - essentials.warps.Nether
+    - essentials.warps.Sponge
+    - essentials.kits.Starter
+    - obsidiandestroyer.check
+    - auction.start
+    - auction.bid
+
+  g:essentials_admin:
+    permissions:
+    - essentials.bigtree
+    - essentials.break
+    - essentials.break.bedrock
+    - essentials.enchant
+    - essentials.enchant.*
+    - essentials.enchantments.[enchantmentname]
+    - essentials.exp
+    - essentials.exp.others
+    - essentials.feed
+    - essentials.firework
+    - essentials.firework.fire
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
+    - essentials.god
+    - essentials.hat
+    - essentials.kits.*
+    - essentials.more
+    - essentials.ptime
+    - essentials.repair
+    - essentials.repair.all
+    - essentials.repair.enchanted
+    - essentials.speed
+    - essentials.speed.bypass
+    - essentials.speed.fly
+    - essentials.speed.walk
+    - essentials.tree
+    - essentials.workbench
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.worth
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.afk.kickexempt
+    - essentials.book
+    - essentials.book.author
+    - essentials.book.title
+    - essentials.compass
+    - essentials.depth
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.help
+    - essentials.help.[pluginname]
+    - essentials.help.[pluginname].[command]
+    - essentials.helpop
+    - essentials.helpop.receive
+    - essentials.chat.ignoreexempt
+    - essentials.ignore
+    - essentials.info
+    - essentials.itemdb
+    - essentials.list
+    - essentials.list.hidden
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.mail.sendall
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.near
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.whois
+    - essentials.ban
+    - essentials.ban.exempt
+    - essentials.ban.notify
+    - essentials.ban.offline
+    - essentials.broadcast
+    - essentials.clearinventory
+    - essentials.enderchest
+    - essentials.enderchest.others
+    - essentials.ext
+    - essentials.fireball
+    - essentials.gc
+    - essentials.invsee
+    - essentials.invsee.preventmodify
+    - essentials.jails
+    - essentials.kick
+    - essentials.kick.exempt
+    - essentials.kick.notify
+    - essentials.mute
+    - essentials.mute.exempt
+    - essentials.mute.notify
+    - essentials.ping
+    - essentials.setjail
+    - essentials.socialspy
+    - essentials.tempban
+    - essentials.tempban.exempt
+    - essentials.tempban.offline
+    - essentials.tempban.unlimited
+    - essentials.jail.allow.<command>
+    - essentials.jail.exempt
+    - essentials.togglejail
+    - essentials.togglejail.offline
+    - essentials.ban.notify
+    - essentials.unbanip
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.vanish.interact
+    - essentials.vanish.see
+    - essentials.spawn
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.keepxp
+    - essentials.worlds.<worldname>
+    - essentials.delhome
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warp.otherplayers
+    - essentials.warps.*
+    - essentials.home
+    - essentials.home.bed
+    - essentials.home.others
+    - essentials.jump
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.unlimited
+    - essentials.setwarp
+    - essentials.signs.create.balance
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.warp	
+    - essentials.signs.break.balance
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.warp
+    - essentials.signs.break.free
+    - essentials.signs.break.sell
+    - essentials.signs.color
+    - essentials.signs.format
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpa
+    - essentials.tpdeny
+    - essentials.tppos
+    - essentials.teleport.cooldown.bypass
+    - essentials.teleport.timer.bypass
+    - essentials.teleport.timer.move
+    - essentials.world
+    - essentials.build
+    - essentials.build.break.<id>[:datavalue]
+    - essentials.build.craft.<id>[:datavalue]
+    - essentials.build.drop.<id>[:datavalue]
+    - essentials.build.interact.<id>[:datavalue]
+    - essentials.build.pickup.<id>[:datavalue]
+    - essentials.build.place.<id>[:datavalue]
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.chat.spy
+    - essentials.chat.url
+    - essentials.pvpdelay.exempt
+
+# Permission nodes for Towny by ElgarL
+# http://dev.bukkit.org/server-mods/towny-advanced/
+
+  g:towny_default:
+    permissions:
+    - towny.chat.general
+    - towny.chat.local
+
+  g:towny_builder:
+    permissions:
+    - towny.town.*
+    - towny.nation.*
+    - towny.chat.town
+    - towny.chat.nation
+    - towny.wild.build.6
+    - towny.wild.destroy.6
+    - towny.wild.destroy.14
+    - towny.wild.destroy.15
+    - towny.wild.destroy.16
+    - towny.wild.build.17
+    - towny.wild.destroy.17
+    - towny.wild.destroy.18
+    - towny.wild.destroy.21
+    - towny.wild.destroy.31
+    - towny.wild.destroy.37
+    - towny.wild.destroy.38
+    - towny.wild.destroy.39
+    - towny.wild.destroy.40
+    - towny.wild.destroy.50
+    - towny.wild.destroy.56
+    - towny.wild.destroy.73
+    - towny.wild.destroy.74
+    - towny.wild.destroy.78
+    - towny.wild.destroy.81
+    - towny.wild.destroy.82
+    - towny.wild.destroy.83
+    - towny.wild.destroy.86
+    - towny.wild.destroy.103
+    - towny.wild.destroy.106
+    - towny.wild.destroy.111
+    - towny.wild.destroy.115
+
+  g:towny_moderator:
+    permissions:
+    - towny.chat.mod
+    - towny.wild.switch.64
+    - towny.wild.build.83
+    - towny.wild.build.86
+    - towny.wild.build.103
+    - towny.wild.build.111
+    - towny.wild.build.115
+
+  g:towny_admin:
+    permissions:
+    - towny.admin
+    - -towny.wild.destroy.119
+    - -towny.wild.destroy.120
+    - towny.chat.admin
+
+# Permission nodes for VanishNoPacket by mbaxter
+# http://dev.bukkit.org/server-mods/vanish/
+
+  g:vanish_moderator:
+    permissions:
+    - -vanish.*
+    - vanish.vanish
+    - vanish.smokin
+    - vanish.nofollow
+    - vanish.nopickup
+    - vanish.preventincomingdamage
+    - vanish.hooks.dynmap.alwayshidden
+    - vanish.hooks.essentials.hide
+
+  g:vanish_admin:
+    permissions:
+    - vanish.silentjoin
+    - vanish.silentquit
+    - vanish.silentchests

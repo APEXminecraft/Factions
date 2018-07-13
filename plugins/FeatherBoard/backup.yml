@@ -1,0 +1,327 @@
+# ------------------------------ #
+#
+#  FeatherBoard 3
+#  Runs like a feather on your server
+#  (c) Maxim Van de Wynckel
+#
+# ------------------------------ #
+
+# Permissions: To use the action groups give them the permission
+#              featherboard.group.<group>
+#              Make sure to remove them from the other groups
+#              when giving a new permission.
+
+# Variables: These variables can be used in the TEXT section
+#            of both the header as the footer.
+#            
+#            {PLAYER}       - Player name
+#            {PLAYERNICK}   - Player nickname
+#            {SERVER}       - Server name
+#            {PLAYERCOUNT}  - Server player count
+#            {BUNGEECOUNT}  - Bungee network player count
+#            4000+ more ... see spigot page
+
+# Formatting: These are formatting tags allowing you to format the animations
+#             or placeholders.
+#
+#             Substring: This allows you to split a word (even a placeholder) in parts
+#               example: <substring begin=0 end=3>Hello World</substring> = Hel
+#               usage: This can be used to split placeholders when creating a typewriter
+#                      or to split the colors in a placeholder.
+#
+#             Scroll: This creates a scrolling animation of the text inside it. It accepts
+#                     two arguments (the length and space between scrolls).
+#               example: <scroll width=20 spaces=20>&2This is a &atest</scroll>
+#
+#             PLENTY MORE! See spigot page
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## Config version (DO NOT EDIT)
+config: 2
+
+## Language file
+lang: 'en'
+
+## Debug mode
+debug: false
+
+## Log to file
+log:
+  enabled: true
+  # Reset log on startup
+  reset: false
+
+## Update checking
+update:
+  check: false 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# Placeholder settings
+placeholder:
+  # logs the memory usage of placeholders on startup
+  log-memory: false
+  # Clear unused placeholders that are not enabled.
+  clear-unused: true
+  
+# Tweaks to increase performance (Use at own risk)
+tweaks:
+  # This option does not send scoreboard remove packets
+  # to the client on quit. This can increase performance on servers
+  # where players quit a lot (hubs, ...)
+  #
+  # Removal of the plugin requires you to manually delete the scoreboard.dat in the worlds
+  # /data folder
+  #
+  # Enabling this can cause the scoreboard not to work anymore. Use at your own risk
+  keepScoreboardOnQuit: false
+  
+
+# Disabled worlds. Add your world name in this list to
+# disable it.
+disabled-worlds:
+- 'example_world'
+
+# Show delay on join. Usefull if you wish to let the user
+# enjoy a Title MOTD without having the scoreboard obstructing
+# the view.
+show-delay: 0
+
+# Anti Flicker will use a new engine that will allow you to use fast animations
+# without any flicker.
+# You can disable this feature if you do not have fast refresh rates.
+antiflicker: true
+
+# A list of different scoreboards
+boards:
+  # Default FeatherBoard comes with a board called "default". All players have the permission
+  # featherboard.group.default  (by default) meaning all players should see the scoreboard unless
+  # the permission is negated.
+  #
+  # You can create as many boards as you want as long as the name is unique. It is advised to give logical
+  # names such as "vip-board", "mcmmo-levelup", ...
+  default:
+    # Every section here are different lines. The first section will be used as the title
+    # the following sections will be used as the lines on the scoreboard (max 15)
+    # Just as the scoreboard names you can name these 'lines' whatever you want. But to make
+    # things simple I will use logical names such as "title", "spacer", "header", ...
+    title:
+      # Every line has its own frames. The animation will loop through these frames on intervals
+      # that you configure below.
+      # Put all your frames under 'text:'. You can make as many lines as you want and use
+      # placeholders and preset effects.
+      # Keep in mind that there is a limit in line width!
+      text:
+      # To create cool looking animations you create yourself
+      # you can use the graphical tool AnimationCreator
+      # https://www.spigotmc.org/resources/animationcreator.6001/
+      # For all placeholders:   https://www.spigotmc.org/wiki/mvdw-placeholders/
+      # For all preset effects: https://www.spigotmc.org/wiki/mvdw-effects/
+      - '&f▶ &b{player} &f◀'
+      # Interval is the animation interval in TICKS (20 ticks is one second).
+      # Every X ticks the animation goes to the next frame (see above)
+      # Once all frames are finished it will start over from the first one
+      interval: 1
+      # If you don't want a static order of the frames and want to show each frame at random
+      # you can enable this option.
+      random: false
+    # A scoreboard is dynamic. The lines can change length due to smaller placeholders or scrolling text.
+    # that is why it is advised to have something on your scoreboard that is bigger then all other lines.
+    # These lines (usually a header or footer) are also good for decoration.
+    linija2:
+      text:
+      - '        &6&lFACTION STATS'
+      interval: 10
+      random: true
+    moneyteatsdtffaffasfsaas:
+      text:
+      - '&a&l&m=================='
+      - '&2&l&m=================='
+      interval: 6
+      random: false
+    moneyteatsdtfafaffasfsaas:
+      text:
+      - ''
+      interval: 2
+      random: false
+    fname-first:
+      text:
+      - ' &eFaction &f{factionsuuid_faction_name}'
+      interval: 2
+      random: false
+    money-first:
+      text:
+      - ' &eLeader &f{factionsuuid_faction_leadername}'
+      interval: 2
+      random: false
+    fvlasnik-firstrtaaf:
+      text:
+      - ' &eMembers online &f{factionsuuid_faction_hasplayersonline}'
+      interval: 2
+      random: false
+    fname:
+      text:
+      - ' &ePower &f{factionsuuid_player_power_rounded}'
+      interval: 2
+      random: false
+    moneyteatsdtas:
+      text:
+      - ''
+      interval: 2
+      random: false
+    moneytfafafeatsdtfasfsaas:
+      text:
+      - '&a&l&m=================='
+      - '&2&l&m=================='
+      interval: 6
+      random: false
+  player:
+    # Every section here are different lines. The first section will be used as the title
+    # the following sections will be used as the lines on the scoreboard (max 15)
+    # Just as the scoreboard names you can name these 'lines' whatever you want. But to make
+    # things simple I will use logical names such as "title", "spacer", "header", ...
+    title:
+      # Every line has its own frames. The animation will loop through these frames on intervals
+      # that you configure below.
+      # Put all your frames under 'text:'. You can make as many lines as you want and use
+      # placeholders and preset effects.
+      # Keep in mind that there is a limit in line width!
+      text:
+      # To create cool looking animations you create yourself
+      # you can use the graphical tool AnimationCreator
+      # https://www.spigotmc.org/resources/animationcreator.6001/
+      # For all placeholders:   https://www.spigotmc.org/wiki/mvdw-placeholders/
+      # For all preset effects: https://www.spigotmc.org/wiki/mvdw-effects/
+      - '&f▶ &b{player} &f◀'
+      # Interval is the animation interval in TICKS (20 ticks is one second).
+      # Every X ticks the animation goes to the next frame (see above)
+      # Once all frames are finished it will start over from the first one
+      interval: 1
+      # If you don't want a static order of the frames and want to show each frame at random
+      # you can enable this option.
+      random: false
+    # A scoreboard is dynamic. The lines can change length due to smaller placeholders or scrolling text.
+    # that is why it is advised to have something on your scoreboard that is bigger then all other lines.
+    # These lines (usually a header or footer) are also good for decoration.
+    linija2:
+      text:
+      - '          &9&lPLAYER STATS'
+      interval: 10
+      random: true
+    moneyteatsdtfasfsaas:
+      text:
+      - '&a&l&m=================='
+      - '&2&l&m=================='
+      interval: 6
+      random: false
+    monefaffy-first:
+      text:
+      - ''
+      interval: 2
+      random: false
+    fname-first:
+      text:
+      - ' &eRank &f{group}'
+      interval: 2
+      random: false
+    fname:
+      text:
+      - ' &eMoney &f{money}'
+      interval: 2
+      random: false
+    money-first:
+      text:
+      - ' &ePing &f{ping}ms'
+      interval: 2
+      random: false
+    mofuckingney-first:
+      text:
+      - ''
+      interval: 2
+      random: false
+    fvlasnik-firstrtaaf:
+      text:
+      - ' &eKills &f{stat_pkills}'
+      interval: 2
+      random: false
+    moneyteatsdtas:
+      text:
+      - ' &eDeaths &f{stat_deaths}'
+      interval: 2
+      random: false
+    money-firsfafat:
+      text:
+      - ''
+      interval: 2
+      random: false
+    moneyteatsdtfaffasfsaas:
+      text:
+      - '&a&l&m=================='
+      - '&2&l&m=================='
+      interval: 6
+      random: false
+    # This is a combat scoreboard example showing
+  # combat related information.
+  # DO NOT GIVE THE PERMISSION FOR THIS SCOREBOARD
+  # (Unless you want it to show all the time)
+  # You still need to 'trigger' this scoreboard in the vanilla_combat
+  combat:
+    title:
+      text:
+      - '&9&L✳   &6&lFIGHT   &9&l✳'
+      interval: 5
+      random: false
+    header:
+      text:
+      - ''
+      interval: 10
+      random: true
+    combat-label:
+      text:
+      - '&9&l✳  &fYour target'
+      interval: 100
+      random: false
+    health-labe42l:
+      text:
+      - '  &8&l▶  &b{vanilla-combat_opponent_name}'
+      interval: 2
+      random: false
+    health-datkuracaa-1:
+      text:
+      - ''
+      interval: 1
+      random: false
+    combat-data:
+      text:
+      - '&9&l✳  &fHe have'
+      interval: 2
+      random: false
+    health-label:
+      text:
+      - '  &8&l▶  &b{vanilla-combat_opponent_healthbar}'
+      interval: 2
+      random: false
+    health-data-1:
+      text:
+      - ''
+      interval: 1
+      random: false
+    health-data-1kurac:
+      text:
+      - '&9&l✳  &fFight will end in'
+      interval: 1
+      random: false
+    footer:
+      text:
+      - '  &8&l▶  &b30 seconds..'
+      interval: 20
+      random: false
+  # This is an example for mcMMO when you level up
+  # DO NOT GIVE THE PERMISSION FOR THIS SCOREBOARD
+  # (Unless you want it to show all the time)
+  # You still need to 'trigger' this scoreboard in the 'mcmmo-levelup'

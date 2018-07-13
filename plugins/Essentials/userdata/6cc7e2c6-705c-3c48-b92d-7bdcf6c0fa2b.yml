@@ -1,0 +1,42 @@
+uuid: 6cc7e2c6-705c-3c48-b92d-7bdcf6c0fa2b
+timestamps:
+  login: 1471275554767
+  lastteleport: 1471275703313
+  logout: 1471136174434
+  kits:
+    bronze: 1471097855589
+    yt: 1471134680735
+    emerald: 1471135502015
+    starter: 1471041535234
+    supreme: 1471114722265
+    diamond: 1471134661433
+    silver: 1471134637134
+    gold: 1471097812588
+ipAddress: 5.43.174.224
+lastlocation:
+  world: world
+  x: -24.546822636602656
+  y: 14.0
+  z: -40.499022859032266
+  yaw: 90.611244
+  pitch: -4.500352
+logoutlocation:
+  world: world
+  x: -1481.792318539885
+  y: 248.54808859551443
+  z: 495.6426149751366
+  yaw: -287.7469
+  pitch: 31.50505
+afk: false
+socialspy: false
+money: '2940000'
+nickname: peder
+homes:
+  skybazagw:
+    world: world
+    x: -1482.8040236949
+    y: 247.875
+    z: 491.4586586987437
+    yaw: -15.789398
+    pitch: 17.65838
+lastAccountName: FrazeFX

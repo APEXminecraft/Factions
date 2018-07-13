@@ -1,0 +1,32 @@
+uuid: 5855185f-ab0c-3560-aba3-53c6b2330aac
+timestamps:
+  login: 1471128298798
+  lastteleport: 1471127272393
+  logout: 1471128933128
+  kits:
+    bronze: 1471098402748
+    yt: 1471106138459
+    supreme: 1471098416447
+    diamond: 1471117084493
+    silver: 1471098372447
+    gold: 1471098382648
+    user: 1471098366148
+ipAddress: 212.95.7.47
+lastlocation:
+  world: world_the_end
+  x: -445.6207940063579
+  y: 143.0
+  z: 474.2170935883466
+  yaw: -85.1154
+  pitch: 9.094118
+logoutlocation:
+  world: world
+  x: 257.78432498793717
+  y: 65.0
+  z: 520.1484751498838
+  yaw: -90.75336
+  pitch: -7.7637615
+socialspy: false
+afk: false
+money: '501'
+lastAccountName: fuxzortv

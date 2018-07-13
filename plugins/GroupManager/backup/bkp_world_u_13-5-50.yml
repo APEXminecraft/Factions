@@ -1,0 +1,26 @@
+users:
+  5855185f-ab0c-3560-aba3-53c6b2330aac:
+    lastname: FuxzorTV
+    group: Vlasnik
+    subgroups: []
+    permissions: []
+  6cc7e2c6-705c-3c48-b92d-7bdcf6c0fa2b:
+    lastname: FrazeFX
+    group: Admin
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: User
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: User
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: User
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

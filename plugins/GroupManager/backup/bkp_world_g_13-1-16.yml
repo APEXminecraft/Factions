@@ -1,0 +1,470 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  User:
+    default: true
+    permissions:
+    - BookStats.Get
+    - BungeePortals.portal.*
+    - essentials.kit
+    - essentials.kits.User
+    - essentials.sethome.multiple.jedan
+    - essentials.warps.daljina
+    - essentials.warps.Daljina
+    - ontime.rewards.receive
+    - ontime.track
+    - ote.rank
+    - scoreboardstats.use
+    - screenleap.check
+    - silkspawners.place.*
+    - trophyheads.drop
+    - trophyheads.info
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    info:
+      prefix: '&7[User] &7'
+      build: true
+      suffix: ''
+  SilverMod:
+    default: false
+    permissions:
+    - BookStats.Get
+    - BungeePortals.portal.*
+    - essentials.kit
+    - essentials.kits.Silver
+    - essentials.sethome.multiple.dva
+    - essentials.warps.daljina
+    - essentials.warps.Daljina
+    - ontime.rewards.receive
+    - ontime.track
+    - ote.rank
+    - scoreboardstats.use
+    - silkspawners.place.*
+    - trophyheads.drop
+    - trophyheads.info
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    - g:mod_default
+    info:
+      prefix: '&7[&fSilver&7] &7'
+      build: true
+      suffix: '&8 [&9Mod&8]'
+  GoldMod:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.gold
+    - essentials.sethome.multiple.tri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    - g:mod_default
+    info:
+      prefix: '&e[&6Gold&e] &7'
+      build: true
+      suffix: '&8 [&9Mod&8]'
+  BronzeYT:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.bronze
+    - essentials.kits.yt
+    - essentials.sethome.multiple.cetiri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    - youtube.record
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&6[&eBronze&6] &7'
+      build: true
+      suffix: '&8 [&cY&fT&8]'
+  BronzeAdmin:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.bronze
+    - essentials.sethome.multiple.cetiri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_admin
+    - g:essentials_builder
+    - g:mod_plus
+    - g:donator_default
+    info:
+      prefix: '&6[&eBronze&6] &7'
+      build: true
+      suffix: '&8 [&3Admin&8]'
+  Vlasnik:
+    default: false
+    permissions:
+    - '*'
+    - authme.*
+    - authme.bypassforcesurvival
+    - essentials.*
+    - factions.kit.admin
+    - silkspawners.*
+    inheritance: []
+    info:
+      prefix: '&c&lVLASNIK &f'
+      build: true
+      suffix: ''
+  SupremeAdmin:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.Supreme
+    - essentials.sethome.multiple.sest
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.6
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_admin
+    - g:essentials_builder
+    - g:mod_plus
+    - g:donator_default
+    info:
+      prefix: '&8[&9Supreme&8] &7'
+      build: true
+      suffix: '&8 [&3Admin&8]'
+  SupremeYT:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.Supreme
+    - essentials.sethome.multiple.sest
+    - nametag.group.donator
+    - playervaults.amount.1
+    - essentials.kits.yt
+    - playervaults.size.6
+    - silkspawners.place.*
+    - youtube.record
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&8[&9Supreme&8] &7'
+      build: true
+      suffix: '&8 [&cY&fT&8]'
+  SilverYT:
+    default: false
+    permissions:
+    - BookStats.Get
+    - BungeePortals.portal.*
+    - essentials.kit
+    - essentials.kits.Silver
+    - essentials.sethome.multiple.dva
+    - essentials.warps.daljina
+    - essentials.warps.Daljina
+    - ontime.rewards.receive
+    - ontime.track
+    - essentials.kits.yt
+    - ote.rank
+    - scoreboardstats.use
+    - silkspawners.place.*
+    - trophyheads.drop
+    - trophyheads.info
+    - youtube.record
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&7[&fSilver&7] &7'
+      build: true
+      suffix: '&8 [&cY&fT&8]'
+  Supreme:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.Supreme
+    - essentials.sethome.multiple.sest
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.6
+    - screenleap.check
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&8[&9Supreme&8] &7'
+      build: true
+      suffix: ''
+  GoldYT:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.gold
+    - essentials.sethome.multiple.tri
+    - nametag.group.donator
+    - essentials.kits.yt
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    - youtube.record
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&e[&6Gold&e] &7'
+      build: true
+      suffix: '&8 [&cY&fT&8]'
+  SupremeMod:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.Supreme
+    - essentials.sethome.multiple.sest
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.6
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    - g:mod_default
+    info:
+      prefix: '&8[&9Supreme&8] &7'
+      build: true
+      suffix: '&8 [&9Mod&8]'
+  DiamondMod:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.diamond
+    - essentials.sethome.multiple.pet
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    - g:mod_default
+    info:
+      prefix: '&9[&bDiamond&9] &7'
+      build: true
+      suffix: '&8 [&9Mod&8]'
+  Bronze:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.bronze
+    - essentials.sethome.multiple.cetiri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - screenleap.check
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&6[&eBronze&6] &7'
+      build: true
+      suffix: ''
+  BronzeMod:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.bronze
+    - essentials.sethome.multiple.cetiri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    - g:mod_default
+    info:
+      prefix: '&6[&eBronze&6] &7'
+      build: true
+      suffix: '&8 [&9Mod&8]'
+  DiamondAdmin:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.diamond
+    - essentials.sethome.multiple.pet
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_admin
+    - g:essentials_builder
+    - g:mod_plus
+    - g:donator_default
+    info:
+      prefix: '&9[&bDiamond&9] &7'
+      build: true
+      suffix: '&8 [&3Admin&8]'
+  DiamondYT:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.diamond
+    - essentials.sethome.multiple.pet
+    - nametag.group.donator
+    - essentials.kits.yt
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    - youtube.record
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&9[&bDiamond&9] &7'
+      build: true
+      suffix: '&8 [&cY&fT&8]'
+  GoldAdmin:
+    default: false
+    permissions:
+    - Acc.supermoderator
+    - essentials.kit
+    - essentials.kits.gold
+    - essentials.sethome.multiple.tri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_admin
+    - g:essentials_builder
+    - g:mod_plus
+    - g:donator_default
+    info:
+      prefix: '&e[&6Gold&e] &7'
+      build: true
+      suffix: '&8 [&3Admin&8]'
+  Gold:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.gold
+    - essentials.sethome.multiple.tri
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - screenleap.check
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&e[&6Gold&e] &7'
+      build: true
+      suffix: ''
+  Diamond:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.diamond
+    - essentials.sethome.multiple.pet
+    - nametag.group.donator
+    - playervaults.amount.1
+    - playervaults.size.5
+    - screenleap.check
+    - silkspawners.place.*
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    - g:donator_default
+    info:
+      prefix: '&9[&bDiamond&9] &7'
+      build: true
+      suffix: ''
+  Silver:
+    default: false
+    permissions:
+    - BookStats.Get
+    - BungeePortals.portal.*
+    - essentials.kit
+    - essentials.kits.Silver
+    - essentials.sethome.multiple.dva
+    - essentials.warps.daljina
+    - essentials.warps.Daljina
+    - ontime.rewards.receive
+    - ontime.track
+    - ote.rank
+    - scoreboardstats.use
+    - screenleap.check
+    - silkspawners.place.*
+    - trophyheads.drop
+    - trophyheads.info
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_builder
+    info:
+      prefix: '&7[&fSilver&7] &7'
+      build: true
+      suffix: ''
+  SilverAdmin:
+    default: false
+    permissions:
+    - BookStats.Get
+    - BungeePortals.portal.*
+    - essentials.kit
+    - essentials.kits.Silver
+    - essentials.sethome.multiple.dva
+    - essentials.warps.daljina
+    - essentials.warps.Daljina
+    - ontime.rewards.receive
+    - ontime.track
+    - ote.rank
+    - scoreboardstats.use
+    - silkspawners.place.*
+    - trophyheads.drop
+    - trophyheads.info
+    inheritance:
+    - g:bukkit_admin
+    - g:essentials_builder
+    - g:mod_plus
+    - g:donator_default
+    info:
+      prefix: '&7[&fSilver&7] &7'
+      build: true
+      suffix: '&8 [&3Admin&8]'

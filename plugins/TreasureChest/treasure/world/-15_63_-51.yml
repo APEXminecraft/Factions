@@ -1,0 +1,681 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.DoubleBlockInventory
+    left-side:
+      ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+      world: world
+      coords:
+        ==: Vector
+        x: -15.0
+        y: 63.0
+        z: -51.0
+      type: CHEST
+      size: 27
+      contents:
+        item0:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Butterfree§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Butterfree
+        item1:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Butterfree§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Butterfree
+        item2:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Pikachu§8) §8[§cCP500§8] '
+              skull-owner: Pikachu
+        item3:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Eevee§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Fennekin
+        item4:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Gooduck§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Golduck
+        item5:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Jolteon§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Jolteon
+        item6:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Jolteon§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Jolteon
+        item7:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9MudKip§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Mattyup123
+        item8:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9SlowPoke§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Slowestpoke
+        item9:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9SlowPoke§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Slowestpoke
+        item10:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Squirtle§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Xrays
+        item11:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Ditto§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Ditto
+        item12:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Vulpix§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Vulpix
+        item13:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Vulpix§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Vulpix
+        item14:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Vulpix§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Vulpix
+        item15:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Ditto§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Ditto
+        item16:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Eevee§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Fennekin
+        item17:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Gooduck§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Golduck
+        item18:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Pikachu§8) §8[§cCP1000§8] '
+              skull-owner: Pikachu
+        item19:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Squirtle§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Xrays
+        item20:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Magikarp§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Magikarp
+        item21:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Magikarp§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Magikarp
+        item22:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Bulbasur§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: RenaRooRoo14
+        item23:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Bulbasur§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: RenaRooRoo14
+        item24:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Butterfree§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Butterfree
+        item25:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9MudKip§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Mattyup123
+        item26:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Eevee§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Fennekin
+    right-side:
+      ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+      world: world
+      coords:
+        ==: Vector
+        x: -14.0
+        y: 63.0
+        z: -51.0
+      type: CHEST
+      size: 27
+      contents:
+        item0:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Squirtle§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Xrays
+        item1:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Ditto§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Ditto
+        item2:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Gooduck§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Golduck
+        item3:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Jolteon§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Jolteon
+        item4:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Pikachu§8) §8[§cCP100§8] '
+              skull-owner: Pikachu
+        item5:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Bulbasur§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: RenaRooRoo14
+        item6:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9MudKip§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Mattyup123
+        item7:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Magikarp§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Magikarp
+        item8:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9SlowPoke§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Slowestpoke
+        item9:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Cubone§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Cubone
+        item10:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Cubone§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Cubone
+        item11:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Metapod§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Metapod
+        item12:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Cubone§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Cubone
+        item13:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Metapod§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Metapod
+        item14:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Raichu§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: raichuthink
+        item15:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Metapod§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Metapod
+        item16:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Vaporeon§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Vaporeon
+        item17:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Vaporeon§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: Vaporeon
+        item18:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Raichu§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: raichuthink
+        item19:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Raichu§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: raichuthink
+        item20:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Vaporeon§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Vaporeon
+        item21:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Metapod§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Metapod
+        item22:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Butterfree§8) §8[§cCP100§8] '
+              repair-cost: 1
+              skull-owner: Butterfree
+        item23:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9MudKip§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Mattyup123
+        item24:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Bulbasur§8) §8[§cCP1000§8] '
+              repair-cost: 1
+              skull-owner: RenaRooRoo14
+        item25:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9MudKip§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Mattyup123
+        item26:
+          ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+          stack:
+            ==: org.bukkit.inventory.ItemStack
+            type: SKULL_ITEM
+            damage: 3
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§e§lPOKEMON §8(§9Metapod§8) §8[§cCP500§8] '
+              repair-cost: 1
+              skull-owner: Metapod
+  messages:
+    FOUND: Pokebox> Uzmi jednog pokemona i dodji sutra ponovno!
+    FOUND_ALREADY: Pokebox> Vec si uzeo pokemona, dodji sutra!
+  ranks: []
+  unlimited: false
+  random: 1
+  forget-time: 86400000
+  ignore-protection: false
+  shared: false
+  rewards: {}

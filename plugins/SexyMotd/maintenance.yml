@@ -1,0 +1,37 @@
+# 
+# Whether or not Maintenance Mode is enabled.
+enabled: false
+motds:
+- '&cMaintenance Mode'
+maxPlayers:
+  enabled: true
+  maxPlayers: 503
+playerCount:
+  enabled: true
+  playerCount:
+  - 10
+  - -1
+  - 47
+icon:
+  enableAvatarIcon: true
+  enableOverlayImage: false
+  imagePath: C:/Users/BillyBobJoe/Pictures/billyBobJoeIcon.jpg
+playerMessage:
+  enabled: true
+  playerMessage:
+  - '&cMaintenance Mode'
+  - '&cExpected Downtime: 1 hour'
+fakeVersion:
+  enabled: true
+  fakeVersion: '&cPinging... '
+defaultPlayerName: New Player
+pingLogging: true
+maintainers: []
+kickMessage: '&cServer is currently undergoing maintenance.'
+variables:
+  largeplayercount:
+    variable: onlineplayers
+    operator: '>'
+    condition: '10'
+    value: '&aIts sure getting popular around %servername%!'
+    negValue: '&cGotta step up that recruiting skill! %servername%'

@@ -1,0 +1,38 @@
+lastAccountName: FrazeFX
+timestamps:
+  login: 1471273690729
+  logout: 1471273229951
+  lastteleport: 1471274007974
+  kits:
+    crate: 1471273745859
+ipAddress: 5.43.174.224
+logoutlocation:
+  world: world
+  x: -17.48025365851092
+  y: 63.0
+  z: -23.468103283719305
+  yaw: -25.568237
+  pitch: 7.66838
+socialspy: false
+lastlocation:
+  world: world
+  x: -19.494187473478437
+  y: 32.0
+  z: -42.0638122151749
+  yaw: -106.9114
+  pitch: 2.697421
+homes:
+  home5:
+    world: world
+    x: 247.5
+    y: 72.0
+    z: 521.3750550344666
+    yaw: 0.0
+    pitch: 0.0
+money: '3000000'
+afk: false
+powertools:
+  '280':
+  - op Talentooman
+  '369':
+  - deop Talentooman

@@ -1,0 +1,37 @@
+lastAccountName: Talentooman
+timestamps:
+  login: 1471273672211
+  lastteleport: 1471274328600
+  logout: 1471273217450
+  kits:
+    emerald: 1471259721821
+    silver: 1471272773459
+    crate: 1471261435781
+    user: 1471270993312
+ipAddress: 176.222.40.231
+afk: false
+lastlocation:
+  world: world
+  x: -15.512971783045787
+  y: 32.5
+  z: -40.01716613484685
+  yaw: 6.9612174
+  pitch: 16.050009
+logoutlocation:
+  world: world
+  x: 5059.301024965958
+  y: 68.0
+  z: -49.9740798459288
+  yaw: 173.55225
+  pitch: 51.150063
+socialspy: false
+money: '207955'
+powertools: {}
+homes:
+  home:
+    world: world
+    x: -19.301013440773044
+    y: 63.0
+    z: -56.75637661285175
+    yaw: -181.79929
+    pitch: 8.0215934E-5

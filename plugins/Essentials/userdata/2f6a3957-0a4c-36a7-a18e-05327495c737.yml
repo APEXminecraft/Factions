@@ -1,0 +1,25 @@
+socialspy: false
+uuid: 2f6a3957-0a4c-36a7-a18e-05327495c737
+timestamps:
+  login: 1471187704695
+  logout: 1471188144516
+  lastteleport: 1471187221350
+ipAddress: 178.149.105.169
+lastlocation:
+  world: map
+  x: 272.51007042574395
+  y: 101.6052439506722
+  z: 388.3883755916027
+  yaw: -152.9878
+  pitch: 2.2585392E-4
+money: '102'
+logoutlocation:
+  world: map
+  x: 114.3234036967471
+  y: 10.341388076038472
+  z: 107.50457757363364
+  yaw: -68.096565
+  pitch: 26.850006
+lastAccountName: KriptoN
+afk: false
+teleportenabled: true

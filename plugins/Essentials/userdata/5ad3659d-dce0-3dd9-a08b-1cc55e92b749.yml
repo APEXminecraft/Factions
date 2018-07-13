@@ -1,0 +1,23 @@
+uuid: 5ad3659d-dce0-3dd9-a08b-1cc55e92b749
+timestamps:
+  login: 1471054431025
+  logout: 1471054461391
+  lastteleport: 1471053414294
+ipAddress: 93.141.150.114
+lastlocation:
+  world: world
+  x: 272.4766521732564
+  y: 77.41487188293567
+  z: 478.6678329937291
+  yaw: -268.26538
+  pitch: 54.32862
+logoutlocation:
+  world: world
+  x: 250.77664226181014
+  y: 10.865724237764146
+  z: 505.45821815957015
+  yaw: 79.30301
+  pitch: 8.451379
+socialspy: false
+afk: false
+lastAccountName: playingcrazy

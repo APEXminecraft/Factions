@@ -1,0 +1,25 @@
+users:
+  6cc7e2c6-705c-3c48-b92d-7bdcf6c0fa2b:
+    lastname: FrazeFX
+    group: Vlasnik
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: User
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  FuxzorTV:
+    group: Vlasnik
+    subgroups: []
+    permissions: []
+  KHobbits:
+    group: User
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: User
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

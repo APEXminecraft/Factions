@@ -1,0 +1,64 @@
+unknown_user: '&9Login> &7Igrac nije u bazi podataka'
+unsafe_spawn: '&9Login> &7Lokacija sa koje ste se odjavili je bila nesigurna, teleportacija
+  na Spawn'
+not_logged_in: '&9Login> &7Nisi prijavljen!'
+reg_voluntarily: You can register your nickname with the server with the command "/register lozinka ponoviLozinku"
+usage_log: '&9Login> &7Upotreba za prijavu: "&8/login &7<&blozinka&7>&7"'
+wrong_pwd: '&9Login> &7Vasa lozinka je pogresna!'
+unregistered: '&9Login> &aUspjesno si izbrisan iz baze podataka!'
+reg_disabled: '&9Login> &7Registracije su iskljucene. &7 za vise informacija'
+valid_session: '&9Login> &7Nastavak prijave'
+login: '&9Login> &aUspjesno si se prijavio!'
+vb_nonActiv: acc jos nije registriran. Provjeri svoj mail!
+user_regged: '&9Login> &7Taj nadimak je vec registriran, izaberi novi nick'
+usage_reg: '&9Login> &7Upotreba za registraciju: "&8/register &7<&blozinka&7> <&bponoviLozinku&7>&7"'
+max_reg: '&9Login> &cRegistrirao si se previse puta na serveru sa istim IP-em'
+no_perm: '&9Login> &cNemas dozvolu za tu komandu'
+error: '&9Login> &cGreska; Molimo vas kontaktirajte admina'
+login_msg: '&9Login> &7Prijavite se: "&b/login &7<&blozinka&7>&7"'
+reg_msg: '&9Login> &7Registrirajte se na server: "&b/register &7<&blozinka&7> &7<&bponoviLozinku&7>&7"'
+reg_email_msg: '&9Login> &7Registrirajte se na server sa emailom: "&b/register &7<&bemail&7>
+  &7<&bponoviEmail&7>&7" &4NE RADI!'
+usage_unreg: '&9Login> &4Upotreba za unregister: "&b/unregister &4<&blozinka&4>&4"'
+pwd_changed: '&9Login> &2Lozinka je uspjesno promjenjena!'
+user_unknown: '&9Login> &4Nadimak nije registriran'
+password_error: '&9Login> &4Lozinke se ne poklapaju!'
+unvalid_session: Session Dataes doesnt corrispond Plaese wait the end of session
+reg_only: Samo registrirani igraci mogu pristupiti serveru!
+logged_in: '&9Login> &aVec si prijavljen!'
+logout: '&9Login> &7Uspjesno si se odjavio :('
+same_nick: '&9Login> &fIsti nadimak trenutno igra na serveru'
+registered: '&9Login> &2Uspjesno si se registrirao :)'
+pass_len: '&9Login> Tvoja lozinka je ili prekratka ili preduga.'
+reload: '&9Login> &aKonfiguracija i baza podataka su osvjezene'
+timeout: '&9Login> &7Istekla ti je prijava, pokusaj ponovno..'
+usage_changepassword: '&9Login> &4Upotreba za promjenu lozinke: "&b/changepassword
+  &4<&btrenutnaLozinka&4> &4<&bnovaLozinka&4>&4"'
+name_len: '&9Login> &7Tvoj nadimak je ili predug ili prekratak'
+regex: '&9Login> &7Tvoj nadimak sadrzi nedozvoljavajuce znakove/simbole. Dozvoljena
+  slova i brojke: REG_EX'
+add_email: '&9Login> &7Molimo dodajte vasu email adresu : "&b/email add yourEmail
+  confirmEmail"'
+bad_database_email: '&9Login>  This /email command only available with MySQL and SQLite,
+  contact an Admin'
+recovery_email: '&7Forgot your password? Please use /email recovery <yourEmail>'
+usage_captcha: '&7Usage: "&b/captcha <theCaptcha>"'
+wrong_captcha: '&7Wrong Captcha, please use : "&b/captcha THE_CAPTCHA"'
+valid_captcha: '&7Your captcha is valid !'
+kick_forvip: '&7A VIP Player join the full server!'
+kick_fullserver: '&7Server je trenutno pun, vratite se kasnije'
+usage_email_add: '&fUsage: /email add <Email> <confirmEmail> '
+usage_email_change: '&Usage: /email change <old> <new> '
+usage_email_recovery: '&Usage: /email recovery <Email>'
+new_email_invalid: '[AuthMe] New email invalid!'
+old_email_invalid: '[AuthMe] Old email invalid!'
+email_invalid: '[AuthMe] Invalid Email !'
+email_added: '[AuthMe] Email Added !'
+email_confirm: '[AuthMe] Confirm your Email !'
+email_changed: '[AuthMe] Email Change !'
+email_send: '[AuthMe] Recovery Email Send !'
+country_banned: Tvoja drzava je banana sa ovog servera
+antibot_auto_enabled: '[AuthMe] AntiBotMod automatically enabled due to massive connections!'
+antibot_auto_disabled: '[AuthMe] AntiBotMod automatically disabled after %m Minutes,
+  hope invasion stopped'
+email_add: '[AuthMe] /email add <Email> <potvrdiEmail>'

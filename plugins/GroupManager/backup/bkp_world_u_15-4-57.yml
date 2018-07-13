@@ -1,0 +1,33 @@
+users:
+  20373c73-cec5-4019-853e-70f233f7c139:
+    lastname: Talentooman
+    group: SilverMod
+    subgroups: []
+    permissions: []
+  5855185f-ab0c-3560-aba3-53c6b2330aac:
+    lastname: FuxzorTV
+    group: Vlasnik
+    subgroups: []
+    permissions: []
+  6cc7e2c6-705c-3c48-b92d-7bdcf6c0fa2b:
+    lastname: FrazeFX
+    group: Admin
+    subgroups: []
+    permissions: []
+  8861de2d-a3b0-4a37-9249-9b036a498098:
+    lastname: KriptoN
+    group: SilverMod
+    subgroups: []
+    permissions: []
+    info:
+      suffix: '&8 [&6Dev&8]'
+  8ffd87b4-0572-4c97-b914-757cadd7079e:
+    lastname: FrazeFX
+    group: Admin
+    subgroups: []
+    permissions: []
+  d68962a0-3a72-3022-91c5-bc186774c707:
+    lastname: OriginalSkFxon
+    group: SilverMod
+    subgroups: []
+    permissions: []

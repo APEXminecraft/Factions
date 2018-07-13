@@ -1,64 +1,115 @@
-unknown_user: '&9Login> &7Igrac nije u bazi podataka'
-unsafe_spawn: '&9Login> &7Lokacija sa koje ste se odjavili je bila nesigurna, teleportacija
-  na Spawn'
-not_logged_in: '&9Login> &7Nisi prijavljen!'
-reg_voluntarily: You can register your nickname with the server with the command "/register lozinka ponoviLozinku"
-usage_log: '&9Login> &7Upotreba za prijavu: "&8/login &7<&blozinka&7>&7"'
-wrong_pwd: '&9Login> &7Vasa lozinka je pogresna!'
-unregistered: '&9Login> &aUspjesno si izbrisan iz baze podataka!'
-reg_disabled: '&9Login> &7Registracije su iskljucene. &7 za vise informacija'
-valid_session: '&9Login> &7Nastavak prijave'
-login: '&9Login> &aUspjesno si se prijavio!'
-vb_nonActiv: acc jos nije registriran. Provjeri svoj mail!
-user_regged: '&9Login> &7Taj nadimak je vec registriran, izaberi novi nick'
-usage_reg: '&9Login> &7Upotreba za registraciju: "&8/register &7<&blozinka&7> <&bponoviLozinku&7>&7"'
-max_reg: '&9Login> &cRegistrirao si se previse puta na serveru sa istim IP-em'
-no_perm: '&9Login> &cNemas dozvolu za tu komandu'
-error: '&9Login> &cGreska; Molimo vas kontaktirajte admina'
-login_msg: '&9Login> &7Prijavite se: "&b/login &7<&blozinka&7>&7"'
-reg_msg: '&9Login> &7Registrirajte se na server: "&b/register &7<&blozinka&7> &7<&bponoviLozinku&7>&7"'
-reg_email_msg: '&9Login> &7Registrirajte se na server sa emailom: "&b/register &7<&bemail&7>
-  &7<&bponoviEmail&7>&7" &4NE RADI!'
-usage_unreg: '&9Login> &4Upotreba za unregister: "&b/unregister &4<&blozinka&4>&4"'
-pwd_changed: '&9Login> &2Lozinka je uspjesno promjenjena!'
-user_unknown: '&9Login> &4Nadimak nije registriran'
-password_error: '&9Login> &4Lozinke se ne poklapaju!'
-unvalid_session: Session Dataes doesnt corrispond Plaese wait the end of session
-reg_only: Samo registrirani igraci mogu pristupiti serveru!
-logged_in: '&9Login> &aVec si prijavljen!'
-logout: '&9Login> &7Uspjesno si se odjavio :('
-same_nick: '&9Login> &fIsti nadimak trenutno igra na serveru'
-registered: '&9Login> &2Uspjesno si se registrirao :)'
-pass_len: '&9Login> Tvoja lozinka je ili prekratka ili preduga.'
-reload: '&9Login> &aKonfiguracija i baza podataka su osvjezene'
-timeout: '&9Login> &7Istekla ti je prijava, pokusaj ponovno..'
-usage_changepassword: '&9Login> &4Upotreba za promjenu lozinke: "&b/changepassword
-  &4<&btrenutnaLozinka&4> &4<&bnovaLozinka&4>&4"'
-name_len: '&9Login> &7Tvoj nadimak je ili predug ili prekratak'
-regex: '&9Login> &7Tvoj nadimak sadrzi nedozvoljavajuce znakove/simbole. Dozvoljena
-  slova i brojke: REG_EX'
-add_email: '&9Login> &7Molimo dodajte vasu email adresu : "&b/email add yourEmail
-  confirmEmail"'
-bad_database_email: '&9Login>  This /email command only available with MySQL and SQLite,
-  contact an Admin'
-recovery_email: '&7Forgot your password? Please use /email recovery <yourEmail>'
-usage_captcha: '&7Usage: "&b/captcha <theCaptcha>"'
-wrong_captcha: '&7Wrong Captcha, please use : "&b/captcha THE_CAPTCHA"'
-valid_captcha: '&7Your captcha is valid !'
-kick_forvip: '&7A VIP Player join the full server!'
-kick_fullserver: '&7Server je trenutno pun, vratite se kasnije'
-usage_email_add: '&fUsage: /email add <Email> <confirmEmail> '
-usage_email_change: '&Usage: /email change <old> <new> '
-usage_email_recovery: '&Usage: /email recovery <Email>'
-new_email_invalid: '[AuthMe] New email invalid!'
-old_email_invalid: '[AuthMe] Old email invalid!'
-email_invalid: '[AuthMe] Invalid Email !'
-email_added: '[AuthMe] Email Added !'
-email_confirm: '[AuthMe] Confirm your Email !'
-email_changed: '[AuthMe] Email Change !'
-email_send: '[AuthMe] Recovery Email Send !'
-country_banned: Tvoja drzava je banana sa ovog servera
-antibot_auto_enabled: '[AuthMe] AntiBotMod automatically enabled due to massive connections!'
-antibot_auto_disabled: '[AuthMe] AntiBotMod automatically disabled after %m Minutes,
-  hope invasion stopped'
-email_add: '[AuthMe] /email add <Email> <potvrdiEmail>'
+# Registration
+reg_msg: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
+usage_reg: '&cUsage: /register <password> <ConfirmPassword>'
+reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
+kicked_admin_registered: 'An admin just registered you; please log in again'
+registered: '&2Successfully registered!'
+reg_disabled: '&cIn-game registration is disabled!'
+user_regged: '&cYou already have registered this username!'
+
+# Password errors on registration
+password_error: '&cPasswords didn''t match, check them again!'
+password_error_nick: '&cYou can''t use your name as password, please choose another one...'
+password_error_unsafe: '&cThe chosen password isn''t safe, please choose another one...'
+password_error_chars: '&4Your password contains illegal characters. Allowed chars: REG_EX'
+pass_len: '&cYour password is too short or too long! Please try with another one!'
+
+# Login
+usage_log: '&cUsage: /login <password>'
+wrong_pwd: '&cWrong password!'
+login: '&2Successful login!'
+login_msg: '&cPlease, login with the command: /login <password>'
+timeout: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
+
+# Errors
+unknown_user: '&cThis user isn''t registered!'
+denied_command: '&cIn order to use this command you must be authenticated!'
+denied_chat: '&cIn order to chat you must be authenticated!'
+not_logged_in: '&cYou''re not logged in!'
+tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
+max_reg: '&cYou have exceeded the maximum number of registrations (%reg_count/%max_acc %reg_names) for your connection!'
+no_perm: '&4You don''t have the permission to perform this action!'
+error: '&4An unexpected error occurred, please contact an administrator!'
+kick_forvip: '&3A VIP player has joined the server when it was full!'
+
+# AntiBot
+kick_antibot: 'AntiBot protection mode is enabled! You have to wait some minutes before joining the server.'
+antibot_auto_enabled: '&4[AntiBotService] AntiBot enabled due to the huge number of connections!'
+antibot_auto_disabled: '&2[AntiBotService] AntiBot disabled after %m minutes!'
+
+# Other messages
+unregistered: '&cSuccessfully unregistered!'
+accounts_owned_self: 'You own %count accounts:'
+accounts_owned_other: 'The player %name has %count accounts:'
+two_factor_create: '&2Your secret code is %code. You can scan it from here %url'
+recovery_code_sent: 'A recovery code to reset your password has been sent to your email.'
+recovery_code_incorrect: 'The recovery code is not correct! You have %count tries remaining.'
+recovery_tries_exceeded: 'You have exceeded the maximum number attempts to enter the recovery code. Use "/email recovery [email]" to generate a new one.'
+recovery_code_correct: 'Recovery code entered correctly!'
+recovery_change_password: 'Please use the command /email setpassword <new password> to change your password immediately.'
+vb_nonActiv: '&cYour account isn''t activated yet, please check your emails!'
+usage_unreg: '&cUsage: /unregister <password>'
+pwd_changed: '&2Password changed successfully!'
+logged_in: '&cYou''re already logged in!'
+logout: '&2Logged out successfully!'
+reload: '&2Configuration and database have been reloaded correctly!'
+usage_changepassword: '&cUsage: /changepassword <oldPassword> <newPassword>'
+
+# Session messages
+invalid_session: '&cYour IP has been changed and your session data has expired!'
+valid_session: '&2Logged-in due to Session Reconnection.'
+
+# Error messages when joining
+name_len: '&4Your username is either too short or too long!'
+regex: '&4Your username contains illegal characters. Allowed chars: REG_EX'
+country_banned: '&4Your country is banned from this server!'
+not_owner_error: 'You are not the owner of this account. Please choose another name!'
+kick_fullserver: '&4The server is full, try again later!'
+same_nick: '&4The same username is already playing on the server!'
+invalid_name_case: 'You should join using username %valid, not %invalid.'
+same_ip_online: 'A player with the same IP is already in game!'
+
+# Email
+usage_email_add: '&cUsage: /email add <email> <confirmEmail>'
+usage_email_change: '&cUsage: /email change <oldEmail> <newEmail>'
+usage_email_recovery: '&cUsage: /email recovery <Email>'
+new_email_invalid: '&cInvalid new email, try again!'
+old_email_invalid: '&cInvalid old email, try again!'
+email_invalid: '&cInvalid email address, try again!'
+email_added: '&2Email address successfully added to your account!'
+email_confirm: '&cPlease confirm your email address!'
+email_changed: '&2Email address changed correctly!'
+email_send: '&2Recovery email sent successfully! Please check your email inbox!'
+email_show: '&2Your current email address is: &f%email'
+incomplete_email_settings: 'Error: not all required settings are set for sending emails. Please contact an admin.'
+email_already_used: '&4The email address is already being used'
+email_send_failure: 'The email could not be sent. Please contact an administrator.'
+show_no_email: '&2You currently don''t have email address associated with this account.'
+add_email: '&3Please add your email to your account with the command: /email add <yourEmail> <confirmEmail>'
+recovery_email: '&3Forgot your password? Please use the command: /email recovery <yourEmail>'
+change_password_expired: 'You cannot change your password using this command anymore.'
+email_cooldown_error: '&cAn email was already sent recently. You must wait %time before you can send a new one.'
+
+# Captcha
+usage_captcha: '&3To login you have to solve a captcha code, please use the command: /captcha <theCaptcha>'
+wrong_captcha: '&cWrong captcha, please type "/captcha THE_CAPTCHA" into the chat!'
+valid_captcha: '&2Captcha code solved correctly!'
+
+# Verification code
+verification_code_required: '&3This command is sensitive and requires an email verification! Check your inbox and follow the email''s instructions.'
+usage_verification_code: '&cUsage: /verification <code>'
+incorrect_verification_code: '&cIncorrect code, please type "/verification <code>" into the chat, using the code you received by email'
+verification_code_verified: '&2Your identity has been verified! You can now execute all commands within the current session!'
+verification_code_already_verified: '&2You can already execute every sensitive command within the current session!'
+verification_code_expired: '&3Your code has expired! Execute an other sensitive command to get a new code!'
+verification_code_email_needed: '&3To verify your identity you need to link an email address with your account!!'
+
+# Time units
+second: 'second'
+seconds: 'seconds'
+minute: 'minute'
+minutes: 'minutes'
+hour: 'hour'
+hours: 'hours'
+day: 'day'
+days: 'days'

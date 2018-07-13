@@ -1,7 +1,7 @@
 SpecificStrategy:
   enabled: true
   hitsToExecuteCmds: 2#3
-  CmdsToExecute: kick {player} Ugasite Criticals Hack!#ban {player} Criticals Hack!
+  CmdsToExecute: kick {player} Turn Off Hack!#ban {player} Critical Hack!
 Strategy1:
   enabled: false
   comboCriticalsLimit: '10'
@@ -14,7 +14,7 @@ Strategy2:
 Fastbow:
   enabled: true
   hitsToExecuteCmds: 3#6
-  CmdsToExecute: kick {player} Ugasite FastBow Hack!#ban {player} FastBow Hack!
+  CmdsToExecute: kick {player} Turn Off FastBow Hack!#ban {player} FastBow Hack!
 AttackSpeed:
   enabled: false
   pingToAvoidChecks: '750'
